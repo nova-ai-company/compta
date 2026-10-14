@@ -1,0 +1,192 @@
+/* =====================================================================
+   Formation comptable — thème lisible pour juniors (iPad + PC)
+   ===================================================================== */
+
+/* ---------- Couleurs de marque ---------- */
+:root {
+  --md-primary-fg-color: #1f4e8c;
+  --md-primary-fg-color--light: #3c6db0;
+  --md-primary-fg-color--dark: #163a69;
+  --md-accent-fg-color: #0f8b7a;
+
+  --c-clair: #2e7d32;   --c-clair-bg: rgba(46,125,50,.08);
+  --c-senior: #a35f00;  --c-senior-bg: rgba(255,170,0,.12);
+  --c-erreur: #c62828;  --c-erreur-bg: rgba(198,40,40,.07);
+  --c-info: #1565c0;    --c-info-bg: rgba(21,101,192,.07);
+  --c-obj: #1f4e8c;     --c-obj-bg: rgba(31,78,140,.06);
+
+  --b-client: #00796b;  --b-module: #6a1b9a;  --b-exercice: #6a1b9a;
+  --b-declaration: #d84315; --b-notation: #1565c0; --b-journal: #795548;
+  --b-fiscal: #ad1457;  --b-social: #2e7d32;  --b-forme: #5d4037;
+  --b-organisme: #455a64; --b-texte: #37474f; --b-sigle: #1f4e8c;
+
+  --pop-bg: #ffffff; --pop-fg: #1d2330; --pop-shadow: 0 10px 30px rgba(15,30,60,.18), 0 2px 6px rgba(15,30,60,.12);
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2a5ea3;
+  --md-accent-fg-color: #35c2ad;
+  --md-typeset-a-color: #8fb8ff;
+  --c-clair: #81c784;  --c-clair-bg: rgba(129,199,132,.10);
+  --c-senior: #ffb74d; --c-senior-bg: rgba(255,183,77,.10);
+  --c-erreur: #ef9a9a; --c-erreur-bg: rgba(239,154,154,.09);
+  --c-info: #90caf9;   --c-info-bg: rgba(144,202,249,.08);
+  --c-obj: #9fbcf0;    --c-obj-bg: rgba(159,188,240,.07);
+  --b-client: #4db6ac; --b-module: #ce93d8; --b-exercice: #ce93d8;
+  --b-declaration: #ff8a65; --b-notation: #90caf9; --b-journal: #bcaaa4;
+  --b-fiscal: #f48fb1; --b-social: #a5d6a7; --b-forme: #bcaaa4;
+  --b-organisme: #b0bec5; --b-texte: #b0bec5; --b-sigle: #9fbcf0;
+  --pop-bg: #232838; --pop-fg: #e6e9f0; --pop-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+
+/* ---------- Typographie et largeur de lecture ---------- */
+.md-grid { max-width: 1400px; }
+.md-typeset { font-size: .84rem; line-height: 1.72; }
+.md-typeset p, .md-typeset li { hyphens: manual; overflow-wrap: break-word; }
+.md-content__inner > p,
+.md-content__inner > ul, .md-content__inner > ol,
+.md-content__inner > blockquote,
+.md-content__inner > .admonition, .md-content__inner > details,
+.md-content__inner > h2, .md-content__inner > h3, .md-content__inner > h4 { max-width: 48rem; }
+.md-typeset h1 { color: var(--md-primary-fg-color); font-weight: 700; letter-spacing: -.01em; }
+[data-md-color-scheme="slate"] .md-typeset h1 { color: #b9cdf5; }
+.md-typeset h2 {
+  margin-top: 2.4em; padding: .35em 0 .35em .7em; font-weight: 700;
+  border-left: 5px solid var(--md-accent-fg-color);
+  background: linear-gradient(90deg, var(--c-obj-bg), transparent 70%);
+  border-radius: 0 .3rem .3rem 0;
+}
+.md-typeset h3 { color: var(--md-primary-fg-color); font-weight: 650; margin-top: 1.8em; }
+[data-md-color-scheme="slate"] .md-typeset h3 { color: #a9c4f5; }
+.md-typeset strong { font-weight: 650; }
+.md-typeset hr { margin: 2.2em 0; border-bottom: 1px dashed var(--md-default-fg-color--lightest); }
+
+/* ---------- Encadrés colorés (blockquotes) ---------- */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-default-fg-color--lighter);
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  padding: .6rem 1rem; border-radius: 0 .45rem .45rem 0; margin: 1.2em 0;
+}
+.md-typeset blockquote > :first-child { margin-top: 0; }
+.md-typeset blockquote > :last-child { margin-bottom: 0; }
+.md-typeset blockquote.bq-clair  { border-color: var(--c-clair);  background: var(--c-clair-bg); }
+.md-typeset blockquote.bq-senior { border-color: var(--c-senior); background: var(--c-senior-bg); }
+.md-typeset blockquote.bq-erreur { border-color: var(--c-erreur); background: var(--c-erreur-bg); }
+.md-typeset blockquote.bq-info   { border-color: var(--c-info);   background: var(--c-info-bg); }
+.md-typeset blockquote.bq-objectif { border-color: var(--c-obj); background: var(--c-obj-bg); }
+.md-typeset blockquote.bq-clair  strong:first-of-type { color: var(--c-clair); }
+.md-typeset blockquote.bq-senior strong:first-of-type { color: var(--c-senior); }
+.md-typeset blockquote.bq-erreur strong:first-of-type { color: var(--c-erreur); }
+
+/* Admonitions (En clair / mots à connaître) un peu plus aérées */
+.md-typeset .admonition, .md-typeset details { font-size: .8rem; border-radius: .45rem; }
+.md-typeset .admonition.abstract, .md-typeset details.abstract { border-color: var(--c-clair); }
+.md-typeset .abstract > .admonition-title, .md-typeset .abstract > summary { background-color: var(--c-clair-bg); }
+.md-typeset .abstract > .admonition-title::before, .md-typeset .abstract > summary::before { background-color: var(--c-clair); }
+
+/* ---------- Carte d'en-tête d'exercice ---------- */
+.md-typeset p.fiche-ex {
+  background: var(--c-obj-bg); border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 5px solid var(--md-primary-fg-color);
+  border-radius: .5rem; padding: .7rem 1rem; line-height: 1.9; font-size: .8rem;
+}
+.md-typeset p.fiche-ex__corner {
+  background: var(--c-senior-bg); border-left: 5px solid var(--c-senior);
+  border-radius: .5rem; padding: .55rem 1rem; font-size: .8rem;
+}
+
+/* ---------- Tableaux ---------- */
+.md-typeset table:not([class]), .md-typeset table.tbl-ecritures { font-size: .74rem; border-radius: .4rem; }
+.md-typeset table:not([class]) th, .md-typeset table.tbl-ecritures th {
+  background: var(--md-primary-fg-color); color: #fff; font-weight: 600; white-space: nowrap;
+}
+.md-typeset table:not([class]) tbody tr:nth-child(even),
+.md-typeset table.tbl-ecritures tbody tr:nth-child(even) { background: var(--md-code-bg-color); }
+.md-typeset table:not([class]) tbody tr:hover,
+.md-typeset table.tbl-ecritures tbody tr:hover { background: var(--c-info-bg); }
+.md-typeset table.tbl-ecritures td.num, .md-typeset table.tbl-ecritures th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.md-typeset table.tbl-ecritures td.num--d:not(:empty) { color: var(--b-notation); }
+.md-typeset table.tbl-ecritures td.num--c:not(:empty) { color: var(--b-fiscal); }
+.md-typeset pre > code { font-size: .7rem; line-height: 1.55; }
+
+/* ---------- Bulles d'aide ---------- */
+.bulle {
+  --bc: var(--b-sigle);
+  cursor: help; border-bottom: 2px dotted var(--bc);
+  text-decoration: none; border-radius: 2px; transition: background .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.bulle:hover, .bulle:focus-visible, .bulle[aria-expanded="true"] {
+  background: color-mix(in srgb, var(--bc) 14%, transparent); outline: none;
+}
+.bulle:focus-visible { box-shadow: 0 0 0 2px var(--bc); }
+.bulle--client { --bc: var(--b-client); font-weight: 600; color: var(--b-client); }
+.bulle--module, .bulle--exercice { --bc: var(--b-module); }
+.bulle--declaration { --bc: var(--b-declaration); }
+.bulle--notation { --bc: var(--b-notation); }
+.bulle--journal { --bc: var(--b-journal); }
+.bulle--fiscal { --bc: var(--b-fiscal); }
+.bulle--social { --bc: var(--b-social); }
+.bulle--forme { --bc: var(--b-forme); }
+.bulle--organisme { --bc: var(--b-organisme); }
+.bulle--texte { --bc: var(--b-texte); }
+th .bulle { color: inherit; border-bottom-color: rgba(255,255,255,.8); }
+
+.bulle-pop {
+  --bc: var(--b-sigle);
+  position: fixed; z-index: 1000; width: min(22rem, calc(100vw - 16px));
+  background: var(--pop-bg); color: var(--pop-fg);
+  border-top: 4px solid var(--bc); border-radius: .6rem; box-shadow: var(--pop-shadow);
+  padding: .8rem 2.2rem .85rem 1rem; font-size: .74rem; line-height: 1.55;
+  animation: bulle-in .12s ease-out;
+}
+@keyframes bulle-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+.bulle-pop[hidden] { display: none; }
+.bulle-pop p { margin: .35rem 0 0; }
+.bulle-pop__cat { font-size: .62rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 700; color: var(--bc); }
+.bulle-pop__titre { margin-top: .15rem; font-size: .8rem; }
+.bulle-pop__titre strong { color: var(--bc); }
+.bulle-pop__lien { display: inline-block; margin-top: .55rem; font-weight: 600; color: var(--bc) !important; }
+.bulle-pop__close {
+  position: absolute; top: .35rem; right: .45rem; width: 1.6rem; height: 1.6rem;
+  border: 0; background: transparent; color: var(--pop-fg); font-size: 1.1rem; line-height: 1; cursor: pointer; border-radius: 50%;
+}
+.bulle-pop__close:hover { background: rgba(127,127,127,.15); }
+.bulle-pop--sheet {
+  left: 8px !important; right: 8px; bottom: 8px; top: auto !important; width: auto;
+  font-size: .8rem; padding: 1rem 2.4rem 1.1rem 1.1rem;
+}
+.bulle-pop--client { --bc: var(--b-client); }
+.bulle-pop--module, .bulle-pop--exercice { --bc: var(--b-module); }
+.bulle-pop--declaration { --bc: var(--b-declaration); }
+.bulle-pop--notation { --bc: var(--b-notation); }
+.bulle-pop--journal { --bc: var(--b-journal); }
+.bulle-pop--fiscal { --bc: var(--b-fiscal); }
+.bulle-pop--social { --bc: var(--b-social); }
+.bulle-pop--forme { --bc: var(--b-forme); }
+.bulle-pop--organisme { --bc: var(--b-organisme); }
+.bulle-pop--texte { --bc: var(--b-texte); }
+
+/* Légende des couleurs (page d'accueil / codes) */
+.legende-bulles { display: flex; flex-wrap: wrap; gap: .4rem .9rem; font-size: .76rem; }
+
+/* ---------- QCM interactif ---------- */
+.qcm-choices { list-style: none; padding-left: 0 !important; }
+.qcm-choices > li { margin-left: 0 !important; padding: .55rem .8rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .4rem; cursor: pointer; }
+.qcm-choices > li:hover { border-color: var(--md-accent-fg-color); }
+.qcm-choices > li.qcm-selected { border-color: var(--md-primary-fg-color); background: var(--md-primary-fg-color--transparent, rgba(63,81,181,.1)); }
+.qcm-choices > li.qcm-good { border-color: #2e7d32; background: rgba(46,125,50,.15); }
+.qcm-choices > li.qcm-bad { border-color: #c62828; background: rgba(198,40,40,.15); }
+.qcm-result { margin-top: 1rem; font-size: .9rem; }
+.qcm-choices > li { display: flex; gap: .6rem; align-items: flex-start; margin-bottom: .45rem; user-select: none; -webkit-tap-highlight-color: transparent; }
+.qcm-choices > li::before { content: ""; flex: 0 0 1.05rem; height: 1.05rem; margin-top: .15rem; border: 2px solid var(--md-default-fg-color--light); border-radius: 50%; box-sizing: border-box; }
+.qcm-choices > li.qcm-selected::before { border-color: var(--md-primary-fg-color); background: radial-gradient(var(--md-primary-fg-color) 45%, transparent 50%); }
+.qcm-choices > li.qcm-good::before { border-color: #2e7d32; background: #2e7d32; }
+.qcm-choices > li.qcm-bad::before { border-color: #c62828; background: #c62828; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 600px) {
+  .md-typeset { font-size: .82rem; }
+  .md-typeset h2 { font-size: 1.15rem; }
+}
+@media (prefers-reduced-motion: reduce) { .bulle-pop { animation: none; } }

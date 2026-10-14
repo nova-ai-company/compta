@@ -1,0 +1,70 @@
+site_name: Formation comptable — Junior à Senior
+site_description: Formation pratique en comptabilité française — 25 clients, cours, exercices et corrigés
+docs_dir: formation
+site_dir: site
+use_directory_urls: true
+exclude_docs: |
+  _CONVENTIONS_REDACTION.md
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/calculator-variant
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/extra.css?v=3
+
+extra_javascript:
+  - assets/qcm.js?v=2
+  - assets/lexique.js?v=3
+  - assets/bulles.js?v=3
