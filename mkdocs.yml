@@ -496,6 +496,7 @@ nav:
       - "M15 — Banque de QCM : comptabilité générale": "modules/M15_entretien_compta_generale_GSF/QCM_questions.md"
       - "M15 — Corrigé de la banque de QCM (comptabilité générale)": "modules/M15_entretien_compta_generale_GSF/QCM_reponses.md"
       - "Banque de questions d'entretien — comptabilité générale (GSF)": "modules/M15_entretien_compta_generale_GSF/questions_entretien_compta_generale.md"
+      - "Les factures du quotidien chez GSF : questions et pièges": "modules/M15_entretien_compta_generale_GSF/questions_factures_GSF.md"
       - "Examens blancs (QCM)":
         - "Examen blanc n° 1": "modules/M15_entretien_compta_generale_GSF/examens_blancs/Examen_blanc_1.md"
         - "Corrigé de l'examen blanc n° 1": "modules/M15_entretien_compta_generale_GSF/examens_blancs/Examen_blanc_1_corrige.md"
