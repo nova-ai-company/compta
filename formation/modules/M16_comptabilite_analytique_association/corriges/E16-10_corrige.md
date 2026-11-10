@@ -1,5 +1,49 @@
 # Corrigé E16-10 — Construire le tableau de bord mensuel de la direction
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **CAC** | Commissaire aux comptes. Auditeur indépendant qui certifie les comptes de certaines entreprises (au-delà de seuils) et associations. |
+    | **CDD** | Contrat à durée déterminée. Contrat de travail avec une date de fin ; donne souvent droit à une indemnité de fin de contrat. |
+    | **CNR** | Crédits non reconductibles. Financement ponctuel accordé par l'ARS pour une dépense exceptionnelle (remplacement, véhicule). Il n'est pas renouvelé l'année suivante. |
+    | **CPOM** | Contrat pluriannuel d'objectifs et de moyens. Contrat de 5 ans entre une association et l'ARS et/ou le Département : objectifs, moyens, et budget présenté en EPRD. |
+    | **EPRD** | État des prévisions de recettes et de dépenses. Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+    | **ERRD** | État réalisé des recettes et des dépenses. Le compte rendu de l'EPRD après la clôture : réalisé, écarts, proposition d'affectation du résultat. Dépôt en général au 30 avril N+1 (à vérifier). |
+    | **ESSMS** | Établissement ou service social et médico-social. Structure autorisée par l'ARS et/ou le Département (SESSAD, SAVS, IME, ESAT…). Elle a son propre budget et rend des comptes à son financeur. |
+    | **FIN.MOIS** | Fonction Excel « fin du mois ». Renvoie le dernier jour du mois d'une date (ex. : FIN.MOIS(A2;0) donne le 31/10 pour le 12/10). Utile pour les échéances. |
+    | **GI** | Groupe I (groupe fonctionnel). Dans le budget d'un ESSMS : les dépenses d'exploitation courante (carburant, fournitures, alimentation…). |
+    | **GII** | Groupe II (groupe fonctionnel). Dans le budget d'un ESSMS : les dépenses de personnel (salaires, charges sociales, intérim). |
+    | **GIII** | Groupe III (groupe fonctionnel). Dans le budget d'un ESSMS : les dépenses de structure (loyers, assurances, amortissements, frais de siège). |
+    | **RECHERCHEV** | Fonction Excel de recherche verticale. Cherche une valeur dans la 1re colonne d'un tableau et renvoie l'info d'une autre colonne. Toujours finir par FAUX (correspondance exacte), sinon le résultat peut être faux. |
+    | **RECHERCHEX** | Fonction Excel de recherche moderne. Remplace RECHERCHEV : cherche une valeur dans une colonne et renvoie celle d'une autre colonne, à gauche ou à droite, en correspondance exacte par défaut. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **SI** | Stock initial. Stock au début de l'exercice (= stock final de l'exercice précédent). |
+    | **SOMME.SI.ENS** | Fonction Excel de somme avec conditions. Additionne les montants qui respectent un ou plusieurs critères (ex. : total des factures de l'établissement de Nice en septembre). |
+    | **TCD** | Tableau croisé dynamique. Outil d'Excel qui regroupe et totalise des données (très utile en révision). |
+    | **TDB** | Tableau de bord. Une page de quelques indicateurs suivis chaque mois par la direction (activité, coût, budget, trésorerie). |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **Compte 401** | Fournisseurs. Ce que l'association doit à ses fournisseurs (factures reçues, pas encore payées). |
+    | **comptabilité analytique** | Ranger les charges et produits par service ou projet. La comptabilité générale dit « quoi » (du carburant), l'analytique dit « pour qui » (pour le SAVS). |
+    | **compte administratif** | Compte rendu annuel d'un service hors CPOM. Le réalisé de l'année, remis au financeur (ex. : le Département pour le SAVS) en général avant le 30 avril N+1. |
+    | **double signature** | Deux personnes valident le paiement. Au-dessus d'un seuil, la directrice ET la trésorière signent le virement : c'est un contrôle anti-fraude. |
+    | **Emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **fonds dédiés** | Subvention affectée pas encore dépensée. Argent reçu pour un projet précis et pas encore utilisé au 31/12. On le met de côté (compte 689 → 19x) pour le dépenser l'année suivante sur ce projet. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **Groupe I** | Dépenses d'exploitation courante. Carburant, fournitures, alimentation, petit matériel. |
+    | **groupe II** | Dépenses de personnel. Salaires, charges sociales, intérim, formation. |
+    | **Groupe III** | Dépenses de structure. Loyers, assurances, entretien, amortissements, frais de siège, intérêts. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **Taux d'activité** | Activité réalisée / activité prévue. Ex. : heures d'accompagnement faites ÷ heures prévues. Les financeurs surveillent la sous-activité. |
+    | **Taux d'occupation** | Places occupées / places autorisées. Ex. : 42 enfants accompagnés pour 45 places = 93,3 %. |
+<!-- /glossaire-page -->
+
 <!-- lien-enonce -->
 > ↩️ [Revenir à l'énoncé de l'exercice E16-10](../exercices/E16-10_tableau-de-bord-mensuel-direction.md)
 

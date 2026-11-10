@@ -3,6 +3,26 @@
 
 **Corner case :** oui — un CDD est suivi d'un CDI quelques jours plus tard (l'indemnité de fin de contrat est-elle due ?), et une partie des heures complémentaires n'est pas encore faite à la date d'envoi des variables
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **CCN 66** | Convention collective nationale du 15 mars 1966. Convention collective très répandue dans le secteur social et médico-social (établissements pour personnes inadaptées et handicapées). |
+    | **CDD** | Contrat à durée déterminée. Contrat de travail avec une date de fin ; donne souvent droit à une indemnité de fin de contrat. |
+    | **CDI** | Contrat à durée indéterminée. Contrat de travail sans date de fin. |
+    | **DPAE** | Déclaration préalable à l'embauche. Déclaration à l'URSSAF obligatoire AVANT l'arrivée de tout nouveau salarié. |
+    | **IJSS** | Indemnités journalières de la Sécurité sociale. Somme versée par la CPAM au salarié en arrêt. Si l'employeur maintient le salaire (subrogation), il les reçoit à sa place. |
+    | **RIB** | Relevé d'identité bancaire. Document qui donne les coordonnées bancaires (IBAN, BIC) d'un compte. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **URSSAF** | Organisme de recouvrement des cotisations sociales. Collecte les cotisations sociales (maladie, famille, CSG…) des salariés et des indépendants. |
+    | **code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **subrogation** | L'employeur touche les IJSS à la place du salarié. L'association maintient le salaire pendant l'arrêt maladie et reçoit directement les indemnités de la CPAM. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes et documents fictifs.*
 
 !!! abstract "En clair"

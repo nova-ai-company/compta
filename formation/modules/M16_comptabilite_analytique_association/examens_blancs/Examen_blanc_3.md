@@ -1,5 +1,46 @@
 # Examen blanc n° 3 — QCM agent comptable en association (15 questions, 20 minutes)
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **01-SIEGE** | Section analytique du siège. Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+    | **12156** | Cerfa n° 12156 — demande de subvention. Le formulaire officiel pour demander une subvention à l'État, une collectivité ou un organisme public. Il contient le budget prévisionnel du projet. |
+    | **15059** | Cerfa n° 15059 — compte rendu financier. Le formulaire pour rendre compte de l'utilisation d'une subvention : budget prévu, dépenses réelles, écarts expliqués. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **Cerfa** | Formulaire administratif officiel. Formulaire numéroté de l'administration (ex. : Cerfa 12156 pour demander une subvention). |
+    | **DSN** | Déclaration sociale nominative. Déclaration mensuelle de la paie envoyée par l'entreprise : elle remplace la plupart des déclarations sociales. Due le 5 ou le 15 du mois suivant selon l'effectif. |
+    | **EPRD** | État des prévisions de recettes et de dépenses. Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+    | **ERRD** | État réalisé des recettes et des dépenses. Le compte rendu de l'EPRD après la clôture : réalisé, écarts, proposition d'affectation du résultat. Dépôt en général au 30 avril N+1 (à vérifier). |
+    | **ESSMS** | Établissement ou service social et médico-social. Structure autorisée par l'ARS et/ou le Département (SESSAD, SAVS, IME, ESAT…). Elle a son propre budget et rend des comptes à son financeur. |
+    | **HT** | Hors taxes. Montant sans la TVA. C'est le montant HT qui va en charge ou en produit (sauf si la TVA n'est pas récupérable). |
+    | **QCM** | Questionnaire à choix multiples. Test avec plusieurs réponses proposées. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **TVA** | Taxe sur la valeur ajoutée. Impôt payé par le consommateur final, collecté par les entreprises. L'entreprise reverse à l'État la TVA collectée sur ses ventes moins la TVA déductible sur ses achats. |
+    | **Compte 401** | Fournisseurs. Ce que l'association doit à ses fournisseurs (factures reçues, pas encore payées). |
+    | **Compte 404** | Fournisseurs d'immobilisations. Dettes envers un fournisseur pour un bien durable (véhicule, ordinateur). |
+    | **Compte 2183** | Matériel de bureau et informatique. Ordinateurs, imprimantes : un bien durable, amorti sur plusieurs années. |
+    | **Compte 6063** | Fournitures d'entretien et de petit équipement. Petit matériel (moins de 500 € environ), produits d'entretien. |
+    | **Compte 6064** | Fournitures administratives. Papier, stylos, cartouches. |
+    | **Compte 6132** | Locations immobilières. Loyer des locaux, location de salle. |
+    | **Compte 44562** | TVA déductible sur immobilisations. Sans objet pour l'association (elle ne récupère pas la TVA). |
+    | **charges directes** | Charge qui concerne un seul service. On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+    | **compte administratif** | Compte rendu annuel d'un service hors CPOM. Le réalisé de l'année, remis au financeur (ex. : le Département pour le SAVS) en général avant le 30 avril N+1. |
+    | **compte rendu financier** | Rendre compte de l'usage d'une subvention. Budget prévu, dépenses réelles, écarts expliqués (Cerfa 15059). |
+    | **Coût complet** | Ce que coûte vraiment un service. Charges directes + part des charges communes + frais de siège. |
+    | **fonds dédiés** | Subvention affectée pas encore dépensée. Argent reçu pour un projet précis et pas encore utilisé au 31/12. On le met de côté (compte 689 → 19x) pour le dépenser l'année suivante sur ce projet. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **groupe II** | Dépenses de personnel. Salaires, charges sociales, intérim, formation. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **section d'attente** | Section analytique provisoire. Pour les charges dont on ne connaît pas encore le service. Elle doit être vide à la clôture. |
+    | **subvention affectée** | Subvention donnée pour un projet précis. Elle ne peut servir qu'à ce projet ; ce qui n'est pas dépensé va en fonds dédiés ou est remboursé. |
+    | **taxe sur les salaires** | Impôt des employeurs sans TVA. L'association, non soumise à la TVA, paie cet impôt sur les salaires bruts ; un abattement annuel s'applique aux associations. |
+<!-- /glossaire-page -->
+
 **Conditions réelles :** 20 minutes, sans document, calculatrice simple tolérée, **une seule bonne réponse** par question.
 1 point par bonne réponse → note sur 15. Gérez votre temps : environ 80 secondes par question, gardez les calculs pour la fin. Rappel : l'association fictive Cap Horizons 21 **ne récupère pas la TVA**.
 

@@ -1,5 +1,53 @@
 # Corrigé E17-04 — Journal de paie, charges sociales par salarié et paiement des salaires
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **01-SIEGE** | Section analytique du siège. Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **40-HABITAT** | Section analytique de l'habitat inclusif. « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+    | **AGIRC-ARRCO** | Caisse de retraite complémentaire des salariés. Régime de retraite complémentaire obligatoire des salariés du privé. |
+    | **ANC** | Autorité des normes comptables. L'organisme qui écrit les règles comptables françaises (le PCG). |
+    | **BOFiP** | Bulletin officiel des finances publiques. La doctrine officielle de l'administration fiscale : elle explique comment l'administration applique la loi. |
+    | **BQ** | Journal de banque. Journal qui reprend les mouvements du relevé bancaire. |
+    | **CGI** | Code général des impôts. Le code qui contient toutes les règles fiscales (TVA, IS, IR…). « art. 39 CGI » = article 39 de ce code. |
+    | **CPAM** | Caisse primaire d'assurance maladie. Verse notamment les indemnités journalières en cas d'arrêt maladie. |
+    | **DGFiP** | Direction générale des finances publiques. L'administration fiscale française. |
+    | **DSN** | Déclaration sociale nominative. Déclaration mensuelle de la paie envoyée par l'entreprise : elle remplace la plupart des déclarations sociales. Due le 5 ou le 15 du mois suivant selon l'effectif. |
+    | **EPRD** | État des prévisions de recettes et de dépenses. Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+    | **IJSS** | Indemnités journalières de la Sécurité sociale. Somme versée par la CPAM au salarié en arrêt. Si l'employeur maintient le salaire (subrogation), il les reçoit à sa place. |
+    | **PA** | Plateforme agréée. Opérateur agréé par l'État (anciennement « PDP ») qui transmet les factures électroniques entre entreprises et envoie les données à l'administration. |
+    | **PAS** | Prélèvement à la source. Impôt sur le revenu retenu directement sur le salaire par l'employeur, puis reversé à l'État via la DSN. |
+    | **PCG** | Plan comptable général. Le référentiel comptable français : liste des comptes (classes 1 à 7) et règles d'enregistrement. Version applicable : règlement ANC 2014-03 modifié par l'ANC 2022-06. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **URSSAF** | Organisme de recouvrement des cotisations sociales. Collecte les cotisations sociales (maladie, famille, CSG…) des salariés et des indépendants. |
+    | **Compte 421** | Personnel. Rémunérations dues : les salaires nets à verser. |
+    | **Compte 425** | Personnel. Avances et acomptes : argent avancé à un salarié avant la paie. |
+    | **Compte 431** | Sécurité sociale (URSSAF). Cotisations sociales à payer à l'URSSAF. |
+    | **Compte 437** | Autres organismes sociaux. Retraite complémentaire, prévoyance, mutuelle. |
+    | **Compte 512** | Banque. Le compte bancaire de l'association. |
+    | **Compte 641** | Rémunérations du personnel. Salaires bruts. |
+    | **Compte 645** | Charges de sécurité sociale et de prévoyance. Cotisations patronales. |
+    | **Compte 791** | Transferts de charges. Compte SUPPRIMÉ depuis le PCG 2025 : ne plus l'utiliser. |
+    | **Compte 4387** | Organismes sociaux. Produits à recevoir (ex. : IJSS attendues de la CPAM). |
+    | **Compte 4421** | Prélèvement à la source (impôt sur le revenu). Impôt retenu sur le salaire, reversé à l'État. |
+    | **Compte 6411** | Salaires, appointements. Salaire brut de base. Les IJSS reçues en subrogation viennent en diminution. |
+    | **Compte 6451** | Cotisations à l'URSSAF (part patronale). |
+    | **Compte 6452** | Cotisations aux mutuelles (part patronale). |
+    | **Compte 6453** | Cotisations aux caisses de retraite complémentaire (part patronale). |
+    | **carence** | Jours d'arrêt maladie sans IJSS. Les 3 premiers jours d'un arrêt ne sont pas indemnisés par la CPAM (l'employeur peut les maintenir selon la convention). |
+    | **code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **produit à recevoir** | Recette acquise mais pas encore reçue. Ex. : solde d'une subvention AGEFIPH dû au 31/12, versé en mars. |
+    | **subrogation** | L'employeur touche les IJSS à la place du salarié. L'association maintient le salaire pendant l'arrêt maladie et reçoit directement les indemnités de la CPAM. |
+    | **taxe sur les salaires** | Impôt des employeurs sans TVA. L'association, non soumise à la TVA, paie cet impôt sur les salaires bruts ; un abattement annuel s'applique aux associations. |
+<!-- /glossaire-page -->
+
 <!-- lien-enonce -->
 > ↩️ [Revenir à l'énoncé de l'exercice E17-04](../exercices/E17-04_journal-paie-charges-sociales-paiement-salaires.md)
 

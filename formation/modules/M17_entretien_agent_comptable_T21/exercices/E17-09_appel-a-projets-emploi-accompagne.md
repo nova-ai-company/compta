@@ -3,6 +3,33 @@
 
 **Corner case :** oui — en troisième année, le GVT fait dépasser le plafond de financement annoncé par l'ARS : il faut le voir **avant** de déposer le dossier
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **12156** | Cerfa n° 12156 — demande de subvention. Le formulaire officiel pour demander une subvention à l'État, une collectivité ou un organisme public. Il contient le budget prévisionnel du projet. |
+    | **AAP** | Appel à projets. Le financeur décrit un besoin ; les associations répondent avec un projet et un budget. L'agent comptable chiffre la partie financière. |
+    | **AGEFIPH** | Association de gestion du fonds pour l'insertion professionnelle des personnes handicapées. Finance l'emploi des personnes handicapées dans le secteur privé (ex. : cofinance le dispositif d'emploi accompagné). |
+    | **ARS** | Agence régionale de santé. Organisme de l'État qui autorise et finance les soins et le médico-social (ex. : la dotation du SESSAD). |
+    | **CCN 66** | Convention collective nationale du 15 mars 1966. Convention collective très répandue dans le secteur social et médico-social (établissements pour personnes inadaptées et handicapées). |
+    | **Cerfa** | Formulaire administratif officiel. Formulaire numéroté de l'administration (ex. : Cerfa 12156 pour demander une subvention). |
+    | **ETP** | Équivalent temps plein. Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
+    | **GVT** | Glissement vieillesse technicité. Hausse « automatique » de la masse salariale due à l'ancienneté et aux promotions. À prévoir dans tout budget de personnel. |
+    | **LLD** | Location longue durée. Location d'un bien (souvent un véhicule) sur plusieurs années, sans option d'achat : loyers en charge. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **TVA** | Taxe sur la valeur ajoutée. Impôt payé par le consommateur final, collecté par les entreprises. L'entreprise reverse à l'État la TVA collectée sur ses ventes moins la TVA déductible sur ses achats. |
+    | **charges directes** | Charge qui concerne un seul service. On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+    | **clé de répartition** | Règle de partage d'une charge commune. Ex. : le loyer partagé selon les m² occupés par chaque service, la téléphonie selon les ETP. |
+    | **contributions volontaires** | Aide gratuite reçue par l'association. Bénévolat, salle prêtée, dons en nature : on peut les valoriser en classe 8 (comptes 86 / 87). |
+    | **emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **taxe sur les salaires** | Impôt des employeurs sans TVA. L'association, non soumise à la TVA, paie cet impôt sur les salaires bruts ; un abattement annuel s'applique aux associations. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes, financeurs et chiffres fictifs. Relisez la [fiche de l'association](../../M16_comptabilite_analytique_association/fiche_association_Cap_Horizons_21.md), § 3.4, § 3.5 et § 3.8.*
 
 !!! abstract "En clair"

@@ -3,6 +3,43 @@
 
 **Corner case :** oui — la salle commune n'appartient à personne, un véhicule « pool » sert à cinq sections, et la part du siège ne doit pas être répartie une deuxième fois
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **00-COMMUN** | Section des charges communes à répartir. Section « de passage » : on y saisit les charges partagées (loyer, téléphone…), puis on la vide vers les services avec une clé. Elle doit revenir à zéro. |
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **40-HABITAT** | Section analytique de l'habitat inclusif. « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+    | **50-PAIRS** | Section analytique du projet « Pairs et voix ». Projet expérimental de pair-aidance et d'autoreprésentation, financé par une fondation et la Région. |
+    | **90-ASSO** | Section analytique de la vie associative. Adhésions, dons, événements : ce qui n'appartient à aucun service financé. |
+    | **CAC** | Commissaire aux comptes. Auditeur indépendant qui certifie les comptes de certaines entreprises (au-delà de seuils) et associations. |
+    | **ETP** | Équivalent temps plein. Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
+    | **LLD** | Location longue durée. Location d'un bien (souvent un véhicule) sur plusieurs années, sans option d'achat : loyers en charge. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **Compte 614** | Charges locatives et de copropriété. |
+    | **Compte 616** | Primes d'assurances. Assurance des locaux, des véhicules, responsabilité civile. Pas de TVA. |
+    | **Compte 626** | Frais postaux et de télécommunications. Téléphone, internet, timbres. |
+    | **Compte 6061** | Fournitures non stockables. Carburant, eau, électricité. |
+    | **Compte 6132** | Locations immobilières. Loyer des locaux, location de salle. |
+    | **Compte 6135** | Locations mobilières. Location de véhicules (LLD), de photocopieurs. |
+    | **Compte 6155** | Entretien et réparations sur biens mobiliers. Réparation des véhicules, du matériel. |
+    | **Compte 6156** | Maintenance. Contrats de maintenance (informatique, logiciel). |
+    | **Compte 6226** | Honoraires. Expert-comptable, commissaire aux comptes, avocat. |
+    | **Compte 6251** | Voyages et déplacements. Indemnités kilométriques, péages, parking, train. |
+    | **charges communes** | Charge partagée entre plusieurs services. Elle est répartie avec une clé (ex. : le loyer des locaux de Valence). |
+    | **charges directes** | Charge qui concerne un seul service. On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+    | **clés de répartition** | Règle de partage d'une charge commune. Ex. : le loyer partagé selon les m² occupés par chaque service, la téléphonie selon les ETP. |
+    | **Emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **OD analytique** | Écriture de reclassement entre services. Elle change seulement le code analytique d'une charge, pas le compte général. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes et chiffres fictifs.*
 
 !!! abstract "En clair"

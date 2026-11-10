@@ -3,6 +3,37 @@
 
 **Corner case :** oui — le premier projet de budget dépasse la dotation : il faut trouver des leviers **sans toucher** aux crédits non reconductibles, qui sont « fléchés »
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **ARS** | Agence régionale de santé. Organisme de l'État qui autorise et finance les soins et le médico-social (ex. : la dotation du SESSAD). |
+    | **BFR** | Besoin en fonds de roulement. Argent immobilisé dans le cycle d'exploitation (stocks + créances clients − dettes fournisseurs). Plus il est élevé, plus l'entreprise a besoin de trésorerie. |
+    | **CAF** | Capacité d'autofinancement. Trésorerie dégagée par l'activité (résultat + amortissements et provisions). Sert à rembourser les emprunts et investir. |
+    | **CASF** | Code de l'action sociale et des familles. Le code qui encadre les ESSMS : autorisation, tarification, budgets, frais de siège. |
+    | **CDD** | Contrat à durée déterminée. Contrat de travail avec une date de fin ; donne souvent droit à une indemnité de fin de contrat. |
+    | **CNR** | Crédits non reconductibles. Financement ponctuel accordé par l'ARS pour une dépense exceptionnelle (remplacement, véhicule). Il n'est pas renouvelé l'année suivante. |
+    | **CPOM** | Contrat pluriannuel d'objectifs et de moyens. Contrat de 5 ans entre une association et l'ARS et/ou le Département : objectifs, moyens, et budget présenté en EPRD. |
+    | **EPRD** | État des prévisions de recettes et de dépenses. Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+    | **ETP** | Équivalent temps plein. Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
+    | **FINESS** | Fichier national des établissements sanitaires et sociaux. Numéro d'identification de chaque établissement ou service médico-social (SESSAD, SAVS…). Il figure sur l'EPRD, l'ERRD et les notifications de l'ARS. |
+    | **GVT** | Glissement vieillesse technicité. Hausse « automatique » de la masse salariale due à l'ancienneté et aux promotions. À prévoir dans tout budget de personnel. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **Compte 777** | Quote-part des subventions d'investissement virée au résultat. Chaque année, la même part que l'amortissement du bien financé. |
+    | **Compte 10682** | Excédents affectés à l'investissement. Excédent d'un service mis de côté pour financer un investissement (véhicule, travaux). Plan des ESSMS. |
+    | **besoin en fonds de roulement** | Argent bloqué par le décalage des paiements. Créances (subventions à recevoir) moins dettes à court terme. |
+    | **crédits non reconductibles** | Financement ponctuel (CNR). Somme accordée une seule fois par l'ARS pour une dépense exceptionnelle ; elle n'est pas renouvelée l'année suivante. |
+    | **dotation globale** | Somme annuelle fixée par le financeur. L'ARS ou le Département verse au service un montant pour l'année, souvent par douzièmes (1/12 chaque mois). |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **groupes fonctionnels** | Les 3 familles de dépenses d'un ESSMS. Groupe I : exploitation courante. Groupe II : personnel. Groupe III : structure (loyers, amortissements, frais de siège). |
+    | **Indemnités kilométriques** | Remboursement des km faits avec sa voiture. Barème en € par km, selon la puissance du véhicule (CV). Compte 6251. |
+    | **Quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **taxe sur les salaires** | Impôt des employeurs sans TVA. L'association, non soumise à la TVA, paie cet impôt sur les salaires bruts ; un abattement annuel s'applique aux associations. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes et chiffres fictifs. Relisez la [fiche de l'association](../../M16_comptabilite_analytique_association/fiche_association_Cap_Horizons_21.md) avant de commencer.*
 
 !!! abstract "En clair"

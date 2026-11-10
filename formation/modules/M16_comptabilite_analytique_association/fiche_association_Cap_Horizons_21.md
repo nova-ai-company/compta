@@ -1,5 +1,90 @@
 # Fiche de l'association fictive : Cap Horizons 21
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **01-SIEGE** | Section analytique du siège. Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **12156** | Cerfa n° 12156 — demande de subvention. Le formulaire officiel pour demander une subvention à l'État, une collectivité ou un organisme public. Il contient le budget prévisionnel du projet. |
+    | **15059** | Cerfa n° 15059 — compte rendu financier. Le formulaire pour rendre compte de l'utilisation d'une subvention : budget prévu, dépenses réelles, écarts expliqués. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **40-HABITAT** | Section analytique de l'habitat inclusif. « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+    | **50-PAIRS** | Section analytique du projet « Pairs et voix ». Projet expérimental de pair-aidance et d'autoreprésentation, financé par une fondation et la Région. |
+    | **90-ASSO** | Section analytique de la vie associative. Adhésions, dons, événements : ce qui n'appartient à aucun service financé. |
+    | **AGEFIPH** | Association de gestion du fonds pour l'insertion professionnelle des personnes handicapées. Finance l'emploi des personnes handicapées dans le secteur privé (ex. : cofinance le dispositif d'emploi accompagné). |
+    | **ANC** | Autorité des normes comptables. L'organisme qui écrit les règles comptables françaises (le PCG). |
+    | **ARS** | Agence régionale de santé. Organisme de l'État qui autorise et finance les soins et le médico-social (ex. : la dotation du SESSAD). |
+    | **AVP** | Aide à la vie partagée. Aide versée par le Département pour animer un habitat inclusif (projet de vie sociale et partagée des habitants). |
+    | **BFR** | Besoin en fonds de roulement. Argent immobilisé dans le cycle d'exploitation (stocks + créances clients − dettes fournisseurs). Plus il est élevé, plus l'entreprise a besoin de trésorerie. |
+    | **BP** | Budget prévisionnel. Dans le médico-social : le budget qu'un service hors CPOM (ex. : le SAVS) présente à son financeur avant le 31 octobre de l'année précédente (à vérifier chaque année). |
+    | **CA** | Chiffre d'affaires (ou journal de caisse, ou compte administratif). Le plus souvent : le total des ventes HT de l'année. Dans une liste de journaux, « CA » peut désigner le journal de caisse. Dans le médico-social (M16, M17), CA = compte administratif : le compte rendu annuel d'un service hors CPOM (ex. : le SAVS) remis au Département. |
+    | **CAF** | Capacité d'autofinancement. Trésorerie dégagée par l'activité (résultat + amortissements et provisions). Sert à rembourser les emprunts et investir. |
+    | **CASF** | Code de l'action sociale et des familles. Le code qui encadre les ESSMS : autorisation, tarification, budgets, frais de siège. |
+    | **CCN** | Convention collective nationale. Accord de branche qui complète le Code du travail (salaires minimaux, primes, congés…). |
+    | **CCN 66** | Convention collective nationale du 15 mars 1966. Convention collective très répandue dans le secteur social et médico-social (établissements pour personnes inadaptées et handicapées). |
+    | **Cerfa** | Formulaire administratif officiel. Formulaire numéroté de l'administration (ex. : Cerfa 12156 pour demander une subvention). |
+    | **CPOM** | Contrat pluriannuel d'objectifs et de moyens. Contrat de 5 ans entre une association et l'ARS et/ou le Département : objectifs, moyens, et budget présenté en EPRD. |
+    | **EPRD** | État des prévisions de recettes et de dépenses. Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+    | **ERRD** | État réalisé des recettes et des dépenses. Le compte rendu de l'EPRD après la clôture : réalisé, écarts, proposition d'affectation du résultat. Dépôt en général au 30 avril N+1 (à vérifier). |
+    | **ESSMS** | Établissement ou service social et médico-social. Structure autorisée par l'ARS et/ou le Département (SESSAD, SAVS, IME, ESAT…). Elle a son propre budget et rend des comptes à son financeur. |
+    | **ETP** | Équivalent temps plein. Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
+    | **FIPHFP** | Fonds pour l'insertion des personnes handicapées dans la fonction publique. Finance l'emploi des personnes handicapées dans le secteur public (l'équivalent de l'AGEFIPH pour le public). |
+    | **N+1** | L'exercice suivant. L'année comptable d'après (ex. : si N = 2026, N+1 = 2027). Une charge « de N+1 » ne doit pas peser sur le résultat de N. |
+    | **N-1** | L'exercice précédent. L'année comptable d'avant (ex. : si N = 2026, N-1 = 2025). On compare souvent N et N-1 pour repérer les écarts anormaux. |
+    | **PA** | Plateforme agréée. Opérateur agréé par l'État (anciennement « PDP ») qui transmet les factures électroniques entre entreprises et envoie les données à l'administration. |
+    | **PCG** | Plan comptable général. Le référentiel comptable français : liste des comptes (classes 1 à 7) et règles d'enregistrement. Version applicable : règlement ANC 2014-03 modifié par l'ANC 2022-06. |
+    | **RH** | Ressources humaines. Service ou personne qui gère le personnel. |
+    | **RNA** | Répertoire national des associations. Numéro d'identification d'une association (commence par W), attribué à la déclaration en préfecture. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SEEPH** | Semaine européenne pour l'emploi des personnes handicapées. Semaine de sensibilisation organisée chaque année en novembre. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **SIREN** | Numéro d'identification de l'entreprise (9 chiffres). Identifiant unique de chaque entreprise en France. Mention obligatoire sur les factures, y compris celui du client depuis la facturation électronique. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **TVA** | Taxe sur la valeur ajoutée. Impôt payé par le consommateur final, collecté par les entreprises. L'entreprise reverse à l'État la TVA collectée sur ses ventes moins la TVA déductible sur ses achats. |
+    | **Compte 181** | Compte de liaison siège / établissements. Enregistre les échanges entre le siège et chaque service quand chacun a sa propre comptabilité. |
+    | **Compte 621** | Personnel extérieur à l'association. Intérim, personnel mis à disposition. |
+    | **Compte 754** | Dons manuels (ou collectes). Dons des particuliers (numéro selon la nomenclature ANC 2018-06). |
+    | **Compte 756** | Cotisations. Adhésions des membres de l'association. |
+    | **Compte 6061** | Fournitures non stockables. Carburant, eau, électricité. |
+    | **Compte 6251** | Voyages et déplacements. Indemnités kilométriques, péages, parking, train. |
+    | **Compte 7351** | Produits de la tarification. Dotation globale versée par l'ARS ou le Département (numéro selon le plan des ESSMS). |
+    | **Compte 10682** | Excédents affectés à l'investissement. Excédent d'un service mis de côté pour financer un investissement (véhicule, travaux). Plan des ESSMS. |
+    | **Compte 10686** | Réserve de compensation des déficits. Excédent mis de côté pour couvrir un déficit futur du même service. Plan des ESSMS. |
+    | **autodétermination** | Décider pour soi-même. Principe central du réseau Trisomie 21 : la personne fait ses propres choix de vie, avec du soutien si besoin. |
+    | **bon à payer** | Accord écrit de la direction pour payer. Sans bon à payer de la directrice, la facture ne part pas en paiement. |
+    | **charges directes** | Charge qui concerne un seul service. On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+    | **clé de répartition** | Règle de partage d'une charge commune. Ex. : le loyer partagé selon les m² occupés par chaque service, la téléphonie selon les ETP. |
+    | **Code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **comptabilité analytique** | Ranger les charges et produits par service ou projet. La comptabilité générale dit « quoi » (du carburant), l'analytique dit « pour qui » (pour le SAVS). |
+    | **compte administratif** | Compte rendu annuel d'un service hors CPOM. Le réalisé de l'année, remis au financeur (ex. : le Département pour le SAVS) en général avant le 30 avril N+1. |
+    | **compte de liaison** | Compte qui relie le siège et les services. Compte 181 : utilisé quand chaque service a sa propre comptabilité. |
+    | **Compte rendu financier** | Rendre compte de l'usage d'une subvention. Budget prévu, dépenses réelles, écarts expliqués (Cerfa 15059). |
+    | **contributions volontaires** | Aide gratuite reçue par l'association. Bénévolat, salle prêtée, dons en nature : on peut les valoriser en classe 8 (comptes 86 / 87). |
+    | **Dotation globale** | Somme annuelle fixée par le financeur. L'ARS ou le Département verse au service un montant pour l'année, souvent par douzièmes (1/12 chaque mois). |
+    | **double signature** | Deux personnes valident le paiement. Au-dessus d'un seuil, la directrice ET la trésorière signent le virement : c'est un contrôle anti-fraude. |
+    | **emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **fonds de roulement** | Ressources stables moins biens durables. L'argent « d'avance » qui finance le fonctionnement courant. |
+    | **fonds dédiés** | Subvention affectée pas encore dépensée. Argent reçu pour un projet précis et pas encore utilisé au 31/12. On le met de côté (compte 689 → 19x) pour le dépenser l'année suivante sur ce projet. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **Groupe I** | Dépenses d'exploitation courante. Carburant, fournitures, alimentation, petit matériel. |
+    | **Groupe II** | Dépenses de personnel. Salaires, charges sociales, intérim, formation. |
+    | **Groupe III** | Dépenses de structure. Loyers, assurances, entretien, amortissements, frais de siège, intérêts. |
+    | **groupes fonctionnels** | Les 3 familles de dépenses d'un ESSMS. Groupe I : exploitation courante. Groupe II : personnel. Groupe III : structure (loyers, amortissements, frais de siège). |
+    | **Habitat inclusif** | Logement partagé en milieu ordinaire. Des personnes handicapées vivent ensemble chez elles, avec un projet de vie partagé animé par l'association. |
+    | **indemnités kilométriques** | Remboursement des km faits avec sa voiture. Barème en € par km, selon la puissance du véhicule (CV). Compte 6251. |
+    | **milieu ordinaire** | La vie « comme tout le monde ». École, entreprise, logement ordinaires, plutôt qu'un établissement spécialisé. |
+    | **pair-aidance** | Aide apportée par une personne qui vit la même situation. Une personne porteuse de trisomie 21 en accompagne une autre grâce à sa propre expérience. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **report à nouveau** | Résultat gardé en attente. Excédent (110) ou déficit (119) reporté sur un budget suivant. |
+    | **Réserve de compensation** | Excédent mis de côté pour un futur déficit. Compte 10686 : si le service est en déficit plus tard, on puise dans cette réserve. |
+    | **sections analytiques** | Une « case » de la comptabilité analytique. Un service ou un projet (ex. : 20-SAVS) dans lequel on range les charges et les produits qui le concernent. |
+    | **subventions affectées** | Subvention donnée pour un projet précis. Elle ne peut servir qu'à ce projet ; ce qui n'est pas dépensé va en fonds dédiés ou est remboursé. |
+<!-- /glossaire-page -->
+
 *Fiche de référence des modules **M16** (comptabilité analytique en association) et **M17** (poste d'agent comptable en association médico-sociale). Tous les exercices de ces deux modules utilisent **cette** association et **ces** chiffres. Relisez-la avant de commencer.*
 
 !!! warning "Une association inventée, un réseau réel"

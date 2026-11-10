@@ -1,5 +1,80 @@
 # Questions d'entretien : agent comptable en association médico-sociale
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **12156** | Cerfa n° 12156 — demande de subvention. Le formulaire officiel pour demander une subvention à l'État, une collectivité ou un organisme public. Il contient le budget prévisionnel du projet. |
+    | **15059** | Cerfa n° 15059 — compte rendu financier. Le formulaire pour rendre compte de l'utilisation d'une subvention : budget prévu, dépenses réelles, écarts expliqués. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **ANC** | Autorité des normes comptables. L'organisme qui écrit les règles comptables françaises (le PCG). |
+    | **BOFiP** | Bulletin officiel des finances publiques. La doctrine officielle de l'administration fiscale : elle explique comment l'administration applique la loi. |
+    | **BTS** | Brevet de technicien supérieur. Diplôme bac + 2 (ex. : BTS Comptabilité et gestion). |
+    | **CASF** | Code de l'action sociale et des familles. Le code qui encadre les ESSMS : autorisation, tarification, budgets, frais de siège. |
+    | **CCN 66** | Convention collective nationale du 15 mars 1966. Convention collective très répandue dans le secteur social et médico-social (établissements pour personnes inadaptées et handicapées). |
+    | **Cerfa** | Formulaire administratif officiel. Formulaire numéroté de l'administration (ex. : Cerfa 12156 pour demander une subvention). |
+    | **CNSA** | Caisse nationale de solidarité pour l'autonomie. Finance l'aide à l'autonomie (personnes âgées, handicap). L'EPRD et l'ERRD sont déposés sur sa plateforme. |
+    | **CPAM** | Caisse primaire d'assurance maladie. Verse notamment les indemnités journalières en cas d'arrêt maladie. |
+    | **CPOM** | Contrat pluriannuel d'objectifs et de moyens. Contrat de 5 ans entre une association et l'ARS et/ou le Département : objectifs, moyens, et budget présenté en EPRD. |
+    | **CV** | Chevaux fiscaux (puissance fiscale). Puissance administrative d'une voiture, inscrite sur la carte grise. Le barème kilométrique dépend du nombre de CV. |
+    | **DCG** | Diplôme de comptabilité et de gestion. Diplôme bac + 3 de la filière expertise comptable. |
+    | **EPRD** | État des prévisions de recettes et de dépenses. Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+    | **ERRD** | État réalisé des recettes et des dépenses. Le compte rendu de l'EPRD après la clôture : réalisé, écarts, proposition d'affectation du résultat. Dépôt en général au 30 avril N+1 (à vérifier). |
+    | **ESSMS** | Établissement ou service social et médico-social. Structure autorisée par l'ARS et/ou le Département (SESSAD, SAVS, IME, ESAT…). Elle a son propre budget et rend des comptes à son financeur. |
+    | **ETP** | Équivalent temps plein. Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
+    | **HT** | Hors taxes. Montant sans la TVA. C'est le montant HT qui va en charge ou en produit (sauf si la TVA n'est pas récupérable). |
+    | **IJSS** | Indemnités journalières de la Sécurité sociale. Somme versée par la CPAM au salarié en arrêt. Si l'employeur maintient le salaire (subrogation), il les reçoit à sa place. |
+    | **N+1** | L'exercice suivant. L'année comptable d'après (ex. : si N = 2026, N+1 = 2027). Une charge « de N+1 » ne doit pas peser sur le résultat de N. |
+    | **N-1** | L'exercice précédent. L'année comptable d'avant (ex. : si N = 2026, N-1 = 2025). On compare souvent N et N-1 pour repérer les écarts anormaux. |
+    | **PCG** | Plan comptable général. Le référentiel comptable français : liste des comptes (classes 1 à 7) et règles d'enregistrement. Version applicable : règlement ANC 2014-03 modifié par l'ANC 2022-06. |
+    | **RH** | Ressources humaines. Service ou personne qui gère le personnel. |
+    | **RIB** | Relevé d'identité bancaire. Document qui donne les coordonnées bancaires (IBAN, BIC) d'un compte. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **TVA** | Taxe sur la valeur ajoutée. Impôt payé par le consommateur final, collecté par les entreprises. L'entreprise reverse à l'État la TVA collectée sur ses ventes moins la TVA déductible sur ses achats. |
+    | **Compte 404** | Fournisseurs d'immobilisations. Dettes envers un fournisseur pour un bien durable (véhicule, ordinateur). |
+    | **Compte 641** | Rémunérations du personnel. Salaires bruts. |
+    | **Compte 689** | Reports en fonds dédiés. On « met de côté » à la clôture la part d'une subvention affectée non encore dépensée. |
+    | **Compte 789** | Utilisation des fonds dédiés. L'année où la subvention mise de côté est dépensée, on la « reprend » en produit. |
+    | **Compte 791** | Transferts de charges. Compte SUPPRIMÉ depuis le PCG 2025 : ne plus l'utiliser. |
+    | **Compte 6061** | Fournitures non stockables. Carburant, eau, électricité. |
+    | **Compte 6251** | Voyages et déplacements. Indemnités kilométriques, péages, parking, train. |
+    | **Compte 44566** | TVA déductible sur autres biens et services. Sans objet pour l'association : chez elle, la TVA est une charge. |
+    | **autodétermination** | Décider pour soi-même. Principe central du réseau Trisomie 21 : la personne fait ses propres choix de vie, avec du soutien si besoin. |
+    | **bon à payer** | Accord écrit de la direction pour payer. Sans bon à payer de la directrice, la facture ne part pas en paiement. |
+    | **charge commune** | Charge partagée entre plusieurs services. Elle est répartie avec une clé (ex. : le loyer des locaux de Valence). |
+    | **charge constatée d'avance** | Dépense payée d'avance (CCA). Payée cette année mais concerne l'année suivante : on la retire des charges au 31/12 (compte 486). |
+    | **charges directes** | Charge qui concerne un seul service. On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+    | **clé de répartition** | Règle de partage d'une charge commune. Ex. : le loyer partagé selon les m² occupés par chaque service, la téléphonie selon les ETP. |
+    | **code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **comptabilité analytique** | Ranger les charges et produits par service ou projet. La comptabilité générale dit « quoi » (du carburant), l'analytique dit « pour qui » (pour le SAVS). |
+    | **compte administratif** | Compte rendu annuel d'un service hors CPOM. Le réalisé de l'année, remis au financeur (ex. : le Département pour le SAVS) en général avant le 30 avril N+1. |
+    | **compte rendu financier** | Rendre compte de l'usage d'une subvention. Budget prévu, dépenses réelles, écarts expliqués (Cerfa 15059). |
+    | **contributions volontaires** | Aide gratuite reçue par l'association. Bénévolat, salle prêtée, dons en nature : on peut les valoriser en classe 8 (comptes 86 / 87). |
+    | **Coût complet** | Ce que coûte vraiment un service. Charges directes + part des charges communes + frais de siège. |
+    | **crédits non reconductibles** | Financement ponctuel (CNR). Somme accordée une seule fois par l'ARS pour une dépense exceptionnelle ; elle n'est pas renouvelée l'année suivante. |
+    | **double signature** | Deux personnes valident le paiement. Au-dessus d'un seuil, la directrice ET la trésorière signent le virement : c'est un contrôle anti-fraude. |
+    | **fonds dédiés** | Subvention affectée pas encore dépensée. Argent reçu pour un projet précis et pas encore utilisé au 31/12. On le met de côté (compte 689 → 19x) pour le dépenser l'année suivante sur ce projet. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **groupe I** | Dépenses d'exploitation courante. Carburant, fournitures, alimentation, petit matériel. |
+    | **groupe II** | Dépenses de personnel. Salaires, charges sociales, intérim, formation. |
+    | **groupe III** | Dépenses de structure. Loyers, assurances, entretien, amortissements, frais de siège, intérêts. |
+    | **groupes fonctionnels** | Les 3 familles de dépenses d'un ESSMS. Groupe I : exploitation courante. Groupe II : personnel. Groupe III : structure (loyers, amortissements, frais de siège). |
+    | **lettrage** | Relier une facture et son paiement. Dans un compte de tiers, la facture et le virement reçoivent la même lettre (A, B…) : ils s'annulent. |
+    | **milieu ordinaire** | La vie « comme tout le monde ». École, entreprise, logement ordinaires, plutôt qu'un établissement spécialisé. |
+    | **pair-aidance** | Aide apportée par une personne qui vit la même situation. Une personne porteuse de trisomie 21 en accompagne une autre grâce à sa propre expérience. |
+    | **plan de trésorerie** | Prévoir l'argent en banque mois par mois. Solde de début + encaissements − décaissements = solde de fin, sur 6 à 12 mois. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **réserve de compensation** | Excédent mis de côté pour un futur déficit. Compte 10686 : si le service est en déficit plus tard, on puise dans cette réserve. |
+    | **subrogation** | L'employeur touche les IJSS à la place du salarié. L'association maintient le salaire pendant l'arrêt maladie et reçoit directement les indemnités de la CPAM. |
+    | **subvention affectée** | Subvention donnée pour un projet précis. Elle ne peut servir qu'à ce projet ; ce qui n'est pas dépensé va en fonds dédiés ou est remboursé. |
+    | **taxe sur les salaires** | Impôt des employeurs sans TVA. L'association, non soumise à la TVA, paie cet impôt sur les salaires bruts ; un abattement annuel s'applique aux associations. |
+    | **valeur du point** | Base du salaire en CCN 66. Salaire = coefficient × valeur du point (valeur à vérifier chaque année). |
+<!-- /glossaire-page -->
+
 *Module M17 — banque de questions orales pour l'entretien d'**agent comptable** (technicien, débutant accepté) dans une association du réseau Trisomie 21 France. Les exemples chiffrés utilisent l'association **fictive** Cap Horizons 21 : voir la [fiche de l'association](../M16_comptabilite_analytique_association/fiche_association_Cap_Horizons_21.md). Les renvois aux exercices (E16-xx, E17-xx) et aux cours M16 / M17 vous permettent de retravailler chaque point. Référentiel au 10/11/2026.*
 
 > 🟢 **En clair :** chaque réponse est cachée. Lisez la question, **répondez à voix haute en 30 secondes environ** (chronométrez-vous), puis cliquez pour comparer avec la réponse modèle. Pas besoin de réciter mot pour mot : le recruteur veut entendre que vous **comprenez le secteur**, que vous êtes **rigoureux** et que vous savez **à qui demander** quand vous ne savez pas.

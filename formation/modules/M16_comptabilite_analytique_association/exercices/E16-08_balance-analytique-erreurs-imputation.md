@@ -3,6 +3,45 @@
 
 **Corner case :** oui — deux erreurs ne se voient pas dans les totaux (les frais de siège passés deux fois s'annulent entre le siège et les services ; un salaire imputé au mauvais service ne change pas le total) : seul un contrôle de vraisemblance service par service les révèle
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **01-SIEGE** | Section analytique du siège. Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **40-HABITAT** | Section analytique de l'habitat inclusif. « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+    | **50-PAIRS** | Section analytique du projet « Pairs et voix ». Projet expérimental de pair-aidance et d'autoreprésentation, financé par une fondation et la Région. |
+    | **90-ASSO** | Section analytique de la vie associative. Adhésions, dons, événements : ce qui n'appartient à aucun service financé. |
+    | **99-ATTENTE** | Section d'attente. Charges dont on ne connaît pas encore le service. Elle doit être vide à la clôture. |
+    | **IK** | Indemnités kilométriques. Remboursement des kilomètres faits avec sa voiture personnelle pour le travail, selon un barème (prix par km). Compte 6251. |
+    | **OD** | Opérations diverses. Journal des écritures qui ne sont ni des achats, ni des ventes, ni de la banque : paie, amortissements, provisions, corrections, régularisations de clôture. |
+    | **SARL** | Société à responsabilité limitée. Société classique des PME ; le gérant majoritaire est TNS. Ex. : C01 Boulangerie Dupain. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **SIREN** | Numéro d'identification de l'entreprise (9 chiffres). Identifiant unique de chaque entreprise en France. Mention obligatoire sur les factures, y compris celui du client depuis la facturation électronique. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **TVA** | Taxe sur la valeur ajoutée. Impôt payé par le consommateur final, collecté par les entreprises. L'entreprise reverse à l'État la TVA collectée sur ses ventes moins la TVA déductible sur ses achats. |
+    | **Compte 613** | Locations. Loyers (sous-comptes 6132 immobilier, 6135 mobilier et véhicules). |
+    | **Compte 641** | Rémunérations du personnel. Salaires bruts. |
+    | **Compte 645** | Charges de sécurité sociale et de prévoyance. Cotisations patronales. |
+    | **Compte 6061** | Fournitures non stockables. Carburant, eau, électricité. |
+    | **Compte 6063** | Fournitures d'entretien et de petit équipement. Petit matériel (moins de 500 € environ), produits d'entretien. |
+    | **Compte 6226** | Honoraires. Expert-comptable, commissaire aux comptes, avocat. |
+    | **Compte 6251** | Voyages et déplacements. Indemnités kilométriques, péages, parking, train. |
+    | **Bon à payer** | Accord écrit de la direction pour payer. Sans bon à payer de la directrice, la facture ne part pas en paiement. |
+    | **clé de répartition** | Règle de partage d'une charge commune. Ex. : le loyer partagé selon les m² occupés par chaque service, la téléphonie selon les ETP. |
+    | **Code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **indemnités kilométriques** | Remboursement des km faits avec sa voiture. Barème en € par km, selon la puissance du véhicule (CV). Compte 6251. |
+    | **OD analytiques** | Écriture de reclassement entre services. Elle change seulement le code analytique d'une charge, pas le compte général. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **section d'attente** | Section analytique provisoire. Pour les charges dont on ne connaît pas encore le service. Elle doit être vide à la clôture. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes, fournisseurs et chiffres fictifs. Relisez la [fiche de l'association](../fiche_association_Cap_Horizons_21.md) avant de commencer.*
 
 !!! abstract "En clair"

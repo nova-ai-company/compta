@@ -91,6 +91,8 @@
 
 | Sigle | Signification | Explication simple |
 |---|---|---|
+| **12156** | Cerfa n° 12156 — demande de subvention | Le formulaire officiel pour demander une subvention à l'État, une collectivité ou un organisme public. Il contient le budget prévisionnel du projet. |
+| **15059** | Cerfa n° 15059 — compte rendu financier | Le formulaire pour rendre compte de l'utilisation d'une subvention : budget prévu, dépenses réelles, écarts expliqués. |
 | **2031** | Déclaration de résultat BIC (IR) | Déclaration des entreprises à l'IR en BIC (ex. : C20 Style & Vous, C23 LMNP). |
 | **2033** | Liasse fiscale simplifiée | Tableaux 2033-A à 2033-G : bilan, compte de résultat et annexes des entreprises au régime simplifié. |
 | **2035** | Déclaration de résultat BNC | Déclaration des professions libérales (ex. : C05 Dr Sophie Lambert). |
@@ -119,6 +121,7 @@
 | **BP** | Budget prévisionnel | Dans le médico-social : le budget qu'un service hors CPOM (ex. : le SAVS) présente à son financeur avant le 31 octobre de l'année précédente (à vérifier chaque année). |
 | **CA12** | Déclaration annuelle de TVA | Formulaire n° 3517-CA12 des entreprises au réel simplifié : une seule déclaration par an, plus deux acomptes (juillet et décembre). |
 | **CA3** | Déclaration de TVA mensuelle (ou trimestrielle) | Formulaire n° 3310-CA3. Les entreprises au réel normal le déposent chaque mois : TVA collectée − TVA déductible = TVA à payer. Le mois M est déclaré en M+1, entre le 15 et le 24. |
+| **Cerfa** | Formulaire administratif officiel | Formulaire numéroté de l'administration (ex. : Cerfa 12156 pour demander une subvention). |
 | **DAS2** | Déclaration des honoraires, commissions et droits d'auteur | Déclaration annuelle (avec la liasse) des sommes versées à des tiers non salariés : honoraires d'avocat, d'expert, commissions… dès qu'elles dépassent 1 200 € TTC par bénéficiaire et par an (seuil à vérifier). Elle permet à l'administration de recouper les revenus déclarés par ces prestataires. |
 | **DAU** | Document administratif unique | Déclaration en douane utilisée pour les importations et exportations hors UE. C'est la preuve de l'export ou de l'import. |
 | **DEB** | Déclaration d'échanges de biens | Ancienne déclaration douanière des flux de marchandises entre pays de l'UE, aujourd'hui remplacée par l'enquête statistique et l'état récapitulatif. |
@@ -143,6 +146,7 @@
 | **CFE** | Cotisation foncière des entreprises | Impôt local annuel payé par les entreprises sur la valeur des locaux qu'elles utilisent. Payable au 15 décembre. |
 | **CII** | Crédit d'impôt innovation | Crédit d'impôt pour les dépenses d'innovation des PME (prototypes, nouveaux produits). |
 | **CIR** | Crédit d'impôt recherche | Crédit d'impôt pour les dépenses de recherche (ex. : C08 TechNova). Il diminue l'IS à payer ou est remboursé. |
+| **CV** | Chevaux fiscaux (puissance fiscale) | Puissance administrative d'une voiture, inscrite sur la carte grise. Le barème kilométrique dépend du nombre de CV. |
 | **CVAE** | Cotisation sur la valeur ajoutée des entreprises | Impôt local dû par les entreprises au-delà d'un certain chiffre d'affaires, calculé sur la valeur ajoutée (en cours de suppression progressive). |
 | **CVO** | Cotisation volontaire obligatoire | Cotisation interprofessionnelle agricole retenue sur les ventes (ex. : vente de bétail). |
 | **DEP** | Déduction pour épargne de précaution | Déduction fiscale des agriculteurs (C15) qui mettent de l'argent de côté pour faire face aux aléas. |
@@ -193,6 +197,7 @@
 | **IFC** | Indemnités de fin de carrière | Autre nom des indemnités de départ à la retraite (IDR). |
 | **IJ** | Indemnités journalières | Voir IJSS : sommes versées par la CPAM pendant un arrêt de travail. |
 | **IJSS** | Indemnités journalières de la Sécurité sociale | Somme versée par la CPAM au salarié en arrêt. Si l'employeur maintient le salaire (subrogation), il les reçoit à sa place. |
+| **IK** | Indemnités kilométriques | Remboursement des kilomètres faits avec sa voiture personnelle pour le travail, selon un barème (prix par km). Compte 6251. |
 | **MG** | Minimum garanti | Valeur forfaitaire d'un repas en HCR, utilisée pour l'avantage en nature nourriture. |
 | **PAS** | Prélèvement à la source | Impôt sur le revenu retenu directement sur le salaire par l'employeur, puis reversé à l'État via la DSN. |
 | **PASS** | Plafond annuel de la Sécurité sociale | Montant de référence pour calculer certaines cotisations et plafonds (valeur à vérifier chaque année). |
@@ -342,6 +347,7 @@
 | **BR** | Bon de réception | Document interne qui constate la réception d'une marchandise. |
 | **BSA** | Bons de souscription d'actions | Droit d'acheter des actions plus tard à un prix fixé ; « BSA AIR » = financement de startup converti plus tard en actions. |
 | **BTP** | Bâtiment et travaux publics | Secteur de la construction (ex. : C02 Bâtisseurs du Sud). |
+| **BTS** | Brevet de technicien supérieur | Diplôme bac + 2 (ex. : BTS Comptabilité et gestion). |
 | **CA** | Chiffre d'affaires (ou journal de caisse, ou compte administratif) | Le plus souvent : le total des ventes HT de l'année. Dans une liste de journaux, « CA » peut désigner le journal de caisse. Dans le médico-social (M16, M17), CA = compte administratif : le compte rendu annuel d'un service hors CPOM (ex. : le SAVS) remis au Département. |
 | **CAC** | Commissaire aux comptes | Auditeur indépendant qui certifie les comptes de certaines entreprises (au-delà de seuils) et associations. |
 | **CAF** | Capacité d'autofinancement | Trésorerie dégagée par l'activité (résultat + amortissements et provisions). Sert à rembourser les emprunts et investir. |
@@ -358,6 +364,7 @@
 | **CMR** | Lettre de voiture internationale | Document de transport routier : il prouve l'expédition (utile pour justifier une livraison intracommunautaire). |
 | **CMUP** | Coût moyen unitaire pondéré | Méthode de valorisation des stocks : chaque unité vaut le coût moyen des entrées. |
 | **CNR** | Crédits non reconductibles | Financement ponctuel accordé par l'ARS pour une dépense exceptionnelle (remplacement, véhicule). Il n'est pas renouvelé l'année suivante. |
+| **CONCATENER** | Fonction Excel qui assemble des textes | Colle plusieurs cellules en un seul texte (ex. : fournisseur + numéro de facture pour repérer les doublons). |
 | **CPA** | Certified Public Accountant | Expert-comptable américain. |
 | **CPOM** | Contrat pluriannuel d'objectifs et de moyens | Contrat de 5 ans entre une association et l'ARS et/ou le Département : objectifs, moyens, et budget présenté en EPRD. |
 | **CT** | Court terme | Moins d'un an (pour les plus-values professionnelles : biens détenus moins de 2 ans). |
@@ -370,6 +377,7 @@
 | **DAF** | Directeur administratif et financier | Responsable de la finance et de la comptabilité dans l'entreprise du client. |
 | **DAP** | Incoterm « rendu au lieu de destination » — ou dotations | Incoterm : le vendeur supporte le risque jusqu'à la livraison chez l'acheteur. En comptabilité, DAP peut aussi signifier dotations aux amortissements et provisions. |
 | **DCE** | Dossier de consultation des entreprises | Phase d'une mission d'architecte (C13) : dossier pour l'appel d'offres. |
+| **DCG** | Diplôme de comptabilité et de gestion | Diplôme bac + 3 de la filière expertise comptable. |
 | **DDP** | Incoterm « rendu droits acquittés » | Le vendeur livre chez l'acheteur et paie aussi les droits de douane. |
 | **DET** | Direction de l'exécution des travaux | Phase d'une mission d'architecte (C13) : suivi du chantier. |
 | **DG** | Directeur général | Dirigeant qui peut seconder le président d'une SAS ou d'une SA. |
@@ -394,12 +402,16 @@
 | **FALC** | Facile à lire et à comprendre | Méthode d'écriture simple, illustrée, pensée pour les personnes avec une déficience intellectuelle. Très utilisée dans le réseau Trisomie 21. |
 | **FEC** | Fichier des écritures comptables | Fichier normé qui contient toutes les écritures de l'année. Il doit être remis immédiatement en cas de contrôle fiscal. |
 | **FIFO** | Premier entré, premier sorti | Méthode de valorisation des stocks : on considère que les plus anciennes unités sortent en premier. |
+| **FIN.MOIS** | Fonction Excel « fin du mois » | Renvoie le dernier jour du mois d'une date (ex. : FIN.MOIS(A2;0) donne le 31/10 pour le 12/10). Utile pour les échéances. |
 | **FINESS** | Fichier national des établissements sanitaires et sociaux | Numéro d'identification de chaque établissement ou service médico-social (SESSAD, SAVS…). Il figure sur l'EPRD, l'ERRD et les notifications de l'ARS. |
 | **FNP** | Factures non parvenues | À la clôture : charges de l'année dont la facture n'est pas encore arrivée. On les enregistre quand même (compte 408) pour que l'année supporte ses vraies charges. |
 | **FOB** | Incoterm « franco à bord » | Le risque passe à l'acheteur quand la marchandise est chargée sur le bateau au port de départ. |
 | **FSE** | Fonds social européen | Subvention européenne pour l'emploi et l'insertion (ex. : C14 Les Jardins Solidaires). |
 | **GDD** | Gestion déléguée des déchets | Activité de service du groupe GSF (module M14). |
 | **GE** | Grande entreprise | Au moins 5 000 salariés, ou CA > 1,5 Md€. |
+| **GI** | Groupe I (groupe fonctionnel) | Dans le budget d'un ESSMS : les dépenses d'exploitation courante (carburant, fournitures, alimentation…). |
+| **GII** | Groupe II (groupe fonctionnel) | Dans le budget d'un ESSMS : les dépenses de personnel (salaires, charges sociales, intérim). |
+| **GIII** | Groupe III (groupe fonctionnel) | Dans le budget d'un ESSMS : les dépenses de structure (loyers, assurances, amortissements, frais de siège). |
 | **GSF** | Groupe GSF | L'entreprise pour laquelle le module M14 prépare l'entretien d'embauche. |
 | **HCR** | Hôtels, cafés, restaurants | Secteur et convention collective de la restauration et de l'hôtellerie (ex. : C04, C16). |
 | **HT** | Hors taxes | Montant sans la TVA. C'est le montant HT qui va en charge ou en produit (sauf si la TVA n'est pas récupérable). |
@@ -442,6 +454,7 @@
 | **PSP** | Prestataire de services de paiement | Société qui encaisse les paiements en ligne pour le commerçant (Stripe, PayPal…) et les reverse nets de commissions. |
 | **PV** | Procès-verbal — ou plus-value | Deux sens selon le contexte : (1) PV d'assemblée générale, de réception de travaux, d'inventaire ; (2) plus-value de cession. |
 | **QCM** | Questionnaire à choix multiples | Test avec plusieurs réponses proposées. |
+| **QP** | Quote-part | La part d'un total qui revient à un service (ex. : QP de frais de siège = la part du coût du siège payée par le SESSAD). |
 | **RBE** | Registre des bénéficiaires effectifs | Déclaration au greffe des personnes qui contrôlent la société. |
 | **RC** | Responsabilité civile (ou retraite complémentaire) | Le plus souvent : l'assurance responsabilité civile ; en paie, peut désigner la retraite complémentaire. |
 | **RCAI** | Résultat courant avant impôts | Résultat d'exploitation + résultat financier. |
@@ -471,6 +484,7 @@
 | **SOMME.SI.ENS** | Fonction Excel de somme avec conditions | Additionne les montants qui respectent un ou plusieurs critères (ex. : total des factures de l'établissement de Nice en septembre). |
 | **SUV** | Sport utility vehicle | Grosse voiture de tourisme : même régime qu'un VP (TVA non récupérable, amortissement plafonné). |
 | **TCD** | Tableau croisé dynamique | Outil d'Excel qui regroupe et totalise des données (très utile en révision). |
+| **TDB** | Tableau de bord | Une page de quelques indicateurs suivis chaque mois par la direction (activité, coût, budget, trésorerie). |
 | **TDI** | Trouble du développement intellectuel | Terme actuel pour la déficience intellectuelle. |
 | **TPE** | Très petite entreprise | Moins de 10 salariés et CA ou bilan ≤ 2 M€. |
 | **TR** | Titres-restaurant | Sur les relevés bancaires : remboursement des titres-restaurant encaissés (ex. : C01, C04). |
@@ -486,3 +500,170 @@
 | **VP** | Véhicule particulier (de tourisme) | Voiture de tourisme : TVA non récupérable, amortissement plafonné fiscalement, taxes annuelles. |
 | **VU** | Véhicule utilitaire | Camionnette, fourgon : TVA récupérable, pas de plafond d'amortissement. |
 | **WIP** | Work in progress | En-cours de production (nom anglais). |
+
+## Code analytique (association Cap Horizons 21, M16-M17)
+
+| Sigle | Signification | Explication simple |
+|---|---|---|
+| **00-COMMUN** | Section des charges communes à répartir | Section « de passage » : on y saisit les charges partagées (loyer, téléphone…), puis on la vide vers les services avec une clé. Elle doit revenir à zéro. |
+| **01-SIEGE** | Section analytique du siège | Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+| **10-SESSAD** | Section analytique du SESSAD | Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+| **20-SAVS** | Section analytique du SAVS | Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+| **30-EMPLOI** | Section analytique de l'emploi accompagné | Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+| **40-HABITAT** | Section analytique de l'habitat inclusif | « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+| **50-PAIRS** | Section analytique du projet « Pairs et voix » | Projet expérimental de pair-aidance et d'autoreprésentation, financé par une fondation et la Région. |
+| **90-ASSO** | Section analytique de la vie associative | Adhésions, dons, événements : ce qui n'appartient à aucun service financé. |
+| **98-COMMUN** | Section des charges communes à répartir | Même rôle que 00-COMMUN : section de passage vidée chaque mois vers les services. |
+| **99-ATTENTE** | Section d'attente | Charges dont on ne connaît pas encore le service. Elle doit être vide à la clôture. |
+
+## Compte du plan comptable
+
+| Sigle | Signification | Explication simple |
+|---|---|---|
+| **10682** | Excédents affectés à l'investissement | Excédent d'un service mis de côté pour financer un investissement (véhicule, travaux). Plan des ESSMS. |
+| **10686** | Réserve de compensation des déficits | Excédent mis de côté pour couvrir un déficit futur du même service. Plan des ESSMS. |
+| **110** | Report à nouveau (solde créditeur) | Résultat positif gardé en attente, qui sera repris dans un budget suivant. |
+| **119** | Report à nouveau (solde débiteur) | Déficit non couvert, qui sera repris dans un budget suivant. |
+| **120** | Résultat de l'exercice (excédent) | Le bénéfice de l'année, avant sa répartition (affectation). |
+| **129** | Résultat de l'exercice (déficit) | La perte de l'année, avant son affectation. |
+| **131** | Subventions d'investissement reçues | Subvention qui finance un bien durable (véhicule, ordinateur). |
+| **139** | Subventions d'investissement inscrites au compte de résultat | La part de la subvention déjà « consommée », au même rythme que l'amortissement du bien. |
+| **181** | Compte de liaison siège / établissements | Enregistre les échanges entre le siège et chaque service quand chacun a sa propre comptabilité. |
+| **194** | Fonds dédiés sur subventions | Subvention reçue pour un projet précis, pas encore dépensée à la clôture (numéro à vérifier dans le plan de l'association). |
+| **2183** | Matériel de bureau et informatique | Ordinateurs, imprimantes : un bien durable, amorti sur plusieurs années. |
+| **2818** | Amortissements des autres immobilisations corporelles | Le cumul de l'usure déjà constatée sur le matériel. |
+| **401** | Fournisseurs | Ce que l'association doit à ses fournisseurs (factures reçues, pas encore payées). |
+| **403** | Fournisseurs | Effets à payer. |
+| **404** | Fournisseurs d'immobilisations | Dettes envers un fournisseur pour un bien durable (véhicule, ordinateur). |
+| **408** | Fournisseurs | Factures non parvenues (FNP) : charge de l'année dont la facture n'est pas encore arrivée. |
+| **4081** | Fournisseurs | Factures non parvenues (sous-compte du 408). |
+| **411** | Clients / usagers | Ce que l'on doit à l'association. |
+| **421** | Personnel | Rémunérations dues : les salaires nets à verser. |
+| **425** | Personnel | Avances et acomptes : argent avancé à un salarié avant la paie. |
+| **4282** | Dettes provisionnées pour congés à payer | Les congés payés acquis par les salariés et pas encore pris à la clôture. |
+| **4286** | Personnel | Autres charges à payer (ex. : frais à rembourser à la clôture). |
+| **431** | Sécurité sociale (URSSAF) | Cotisations sociales à payer à l'URSSAF. |
+| **437** | Autres organismes sociaux | Retraite complémentaire, prévoyance, mutuelle. |
+| **437x** | Autres organismes sociaux (sous-comptes) | Retraite complémentaire, prévoyance, mutuelle. |
+| **4382** | Charges sociales sur congés à payer | Cotisations dues sur les congés payés provisionnés. |
+| **4386** | Organismes sociaux | Autres charges à payer. |
+| **4387** | Organismes sociaux | Produits à recevoir (ex. : IJSS attendues de la CPAM). |
+| **441** | État et autres collectivités | Subventions à recevoir. |
+| **4421** | Prélèvement à la source (impôt sur le revenu) | Impôt retenu sur le salaire, reversé à l'État. |
+| **44562** | TVA déductible sur immobilisations | Sans objet pour l'association (elle ne récupère pas la TVA). |
+| **44566** | TVA déductible sur autres biens et services | Sans objet pour l'association : chez elle, la TVA est une charge. |
+| **4456x** | TVA déductible (sous-comptes) | Sans objet pour une association non assujettie. |
+| **44586** | TVA sur factures non parvenues | Sans objet pour une association non assujettie. |
+| **467** | Autres comptes débiteurs ou créditeurs | Compte de tiers « divers » (ex. : frais à rembourser à un salarié, subvention à reverser). |
+| **468** | Divers | Charges à payer et produits à recevoir. |
+| **486** | Charges constatées d'avance (CCA) | Dépense payée cette année qui concerne l'année suivante (assurance, loyer d'avance). |
+| **487** | Produits constatés d'avance (PCA) | Recette reçue cette année qui concerne l'année suivante. |
+| **512** | Banque | Le compte bancaire de l'association. |
+| **519** | Concours bancaires courants | Découvert ou ligne de crédit à court terme. |
+| **6061** | Fournitures non stockables | Carburant, eau, électricité. |
+| **6063** | Fournitures d'entretien et de petit équipement | Petit matériel (moins de 500 € environ), produits d'entretien. |
+| **6064** | Fournitures administratives | Papier, stylos, cartouches. |
+| **6068** | Autres matières et fournitures | Matériel pédagogique, jeux, fournitures d'activités. |
+| **611** | Sous-traitance générale | Prestation confiée à un autre organisme. |
+| **613** | Locations | Loyers (sous-comptes 6132 immobilier, 6135 mobilier et véhicules). |
+| **6132** | Locations immobilières | Loyer des locaux, location de salle. |
+| **6135** | Locations mobilières | Location de véhicules (LLD), de photocopieurs. |
+| **614** | Charges locatives et de copropriété. | Charges locatives et de copropriété.. |
+| **6155** | Entretien et réparations sur biens mobiliers | Réparation des véhicules, du matériel. |
+| **6156** | Maintenance | Contrats de maintenance (informatique, logiciel). |
+| **616** | Primes d'assurances | Assurance des locaux, des véhicules, responsabilité civile. Pas de TVA. |
+| **6185** | Frais de colloques, séminaires, conférences. | Frais de colloques, séminaires, conférences.. |
+| **621** | Personnel extérieur à l'association | Intérim, personnel mis à disposition. |
+| **6211** | Personnel intérimaire | Remplacement d'un salarié absent par une agence d'intérim (groupe II). |
+| **6226** | Honoraires | Expert-comptable, commissaire aux comptes, avocat. |
+| **6237** | Publications | Impression de plaquettes, rapports d'activité. |
+| **625** | Déplacements, missions et réceptions. | Déplacements, missions et réceptions.. |
+| **6251** | Voyages et déplacements | Indemnités kilométriques, péages, parking, train. |
+| **6256** | Missions | Repas et frais des salariés en déplacement. |
+| **626** | Frais postaux et de télécommunications | Téléphone, internet, timbres. |
+| **6288** | Autres services extérieurs divers | Ex. : sorties et activités des personnes accompagnées (selon le plan interne). |
+| **6311** | Taxe sur les salaires | Impôt payé par les employeurs non soumis à la TVA, comme l'association. |
+| **641** | Rémunérations du personnel | Salaires bruts. |
+| **6411** | Salaires, appointements | Salaire brut de base. Les IJSS reçues en subrogation viennent en diminution. |
+| **6412** | Congés payés | Variation de la provision pour congés payés. |
+| **6414** | Indemnités et avantages divers | Indemnités de fin de contrat, primes. |
+| **641x** | Rémunérations du personnel (sous-comptes) | Salaires, congés payés, indemnités. |
+| **645** | Charges de sécurité sociale et de prévoyance | Cotisations patronales. |
+| **6451** | Cotisations à l'URSSAF (part patronale). | Cotisations à l'URSSAF (part patronale).. |
+| **6452** | Cotisations aux mutuelles (part patronale). | Cotisations aux mutuelles (part patronale).. |
+| **6453** | Cotisations aux caisses de retraite complémentaire (part patronale). | Cotisations aux caisses de retraite complémentaire (part patronale).. |
+| **645x** | Charges sociales patronales (sous-comptes). | Charges sociales patronales (sous-comptes).. |
+| **655** | Quote-part de frais de siège (ici) | La part du coût du siège imputée à un service ; numéro selon le plan des ESSMS, à vérifier. |
+| **658** | Charges diverses de gestion courante | Pénalités, amendes, dons faits (PCG 2025). |
+| **6616** | Intérêts bancaires | Intérêts d'un découvert ou d'une ligne de crédit. |
+| **681** | Dotations aux amortissements et provisions. | Dotations aux amortissements et provisions.. |
+| **6811** | Dotations aux amortissements | L'usure annuelle des biens durables (véhicules, ordinateurs). |
+| **689** | Reports en fonds dédiés | On « met de côté » à la clôture la part d'une subvention affectée non encore dépensée. |
+| **6894** | Reports en fonds dédiés sur subventions (sous-compte du 689, à vérifier). | Reports en fonds dédiés sur subventions (sous-compte du 689, à vérifier).. |
+| **7351** | Produits de la tarification | Dotation globale versée par l'ARS ou le Département (numéro selon le plan des ESSMS). |
+| **754** | Dons manuels (ou collectes) | Dons des particuliers (numéro selon la nomenclature ANC 2018-06). |
+| **756** | Cotisations | Adhésions des membres de l'association. |
+| **777** | Quote-part des subventions d'investissement virée au résultat | Chaque année, la même part que l'amortissement du bien financé. |
+| **789** | Utilisation des fonds dédiés | L'année où la subvention mise de côté est dépensée, on la « reprend » en produit. |
+| **7894** | Utilisation des fonds dédiés sur subventions (sous-compte du 789, à vérifier). | Utilisation des fonds dédiés sur subventions (sous-compte du 789, à vérifier).. |
+| **791** | Transferts de charges | Compte SUPPRIMÉ depuis le PCG 2025 : ne plus l'utiliser. |
+| **861** | Mise à disposition gratuite de biens | Ex. : salle prêtée par la mairie, valorisée en classe 8. |
+| **864** | Personnel bénévole | Les heures de bénévolat valorisées (emploi des contributions volontaires). |
+| **870** | Bénévolat | Contrepartie du 864 (contributions volontaires en nature). |
+| **871** | Prestations en nature | Contrepartie du 861. |
+
+## Mot du métier
+
+| Sigle | Signification | Explication simple |
+|---|---|---|
+| **autodétermination** | Décider pour soi-même | Principe central du réseau Trisomie 21 : la personne fait ses propres choix de vie, avec du soutien si besoin. |
+| **autorité de tarification** | Le financeur qui fixe le budget d'un ESSMS | L'ARS (pour le SESSAD) ou le Conseil départemental (pour le SAVS). |
+| **besoin en fonds de roulement** | Argent bloqué par le décalage des paiements | Créances (subventions à recevoir) moins dettes à court terme. |
+| **bon à payer** | Accord écrit de la direction pour payer | Sans bon à payer de la directrice, la facture ne part pas en paiement. |
+| **budget par la recette** | On part de la ressource pour fixer les dépenses | Logique de l'EPRD : la dotation est notifiée d'abord, puis on bâtit des dépenses compatibles. |
+| **carence** | Jours d'arrêt maladie sans IJSS | Les 3 premiers jours d'un arrêt ne sont pas indemnisés par la CPAM (l'employeur peut les maintenir selon la convention). |
+| **charge commune** | Charge partagée entre plusieurs services | Elle est répartie avec une clé (ex. : le loyer des locaux de Valence). |
+| **charge constatée d'avance** | Dépense payée d'avance (CCA) | Payée cette année mais concerne l'année suivante : on la retire des charges au 31/12 (compte 486). |
+| **charge directe** | Charge qui concerne un seul service | On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+| **charge non opposable** | Dépense refusée par le financeur | Le financeur estime qu'elle ne relève pas du service (ex. : une amende) : elle reste à la charge de l'association. |
+| **clé de répartition** | Règle de partage d'une charge commune | Ex. : le loyer partagé selon les m² occupés par chaque service, la téléphonie selon les ETP. |
+| **code analytique** | Le code du service saisi sur chaque ligne | Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+| **comptabilité analytique** | Ranger les charges et produits par service ou projet | La comptabilité générale dit « quoi » (du carburant), l'analytique dit « pour qui » (pour le SAVS). |
+| **compte administratif** | Compte rendu annuel d'un service hors CPOM | Le réalisé de l'année, remis au financeur (ex. : le Département pour le SAVS) en général avant le 30 avril N+1. |
+| **compte de liaison** | Compte qui relie le siège et les services | Compte 181 : utilisé quand chaque service a sa propre comptabilité. |
+| **compte rendu financier** | Rendre compte de l'usage d'une subvention | Budget prévu, dépenses réelles, écarts expliqués (Cerfa 15059). |
+| **contributions volontaires** | Aide gratuite reçue par l'association | Bénévolat, salle prêtée, dons en nature : on peut les valoriser en classe 8 (comptes 86 / 87). |
+| **coût complet** | Ce que coûte vraiment un service | Charges directes + part des charges communes + frais de siège. |
+| **crédits non reconductibles** | Financement ponctuel (CNR) | Somme accordée une seule fois par l'ARS pour une dépense exceptionnelle ; elle n'est pas renouvelée l'année suivante. |
+| **dotation globale** | Somme annuelle fixée par le financeur | L'ARS ou le Département verse au service un montant pour l'année, souvent par douzièmes (1/12 chaque mois). |
+| **double signature** | Deux personnes valident le paiement | Au-dessus d'un seuil, la directrice ET la trésorière signent le virement : c'est un contrôle anti-fraude. |
+| **emploi accompagné** | Dispositif d'aide vers et dans l'emploi | Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+| **extourne** | Annuler une écriture au 1er jour de l'exercice suivant | On passe l'écriture inverse (ex. : d'une FNP) pour ne pas compter la charge deux fois quand la facture arrive. |
+| **facture non parvenue** | Charge sans facture au 31/12 (FNP) | Le service est fait mais la facture n'est pas arrivée : on enregistre la charge quand même (compte 408). |
+| **file active** | Nombre de personnes accompagnées sur l'année | Elle peut dépasser le nombre de places (des personnes sortent, d'autres entrent). |
+| **fonds de roulement** | Ressources stables moins biens durables | L'argent « d'avance » qui finance le fonctionnement courant. |
+| **fonds dédiés** | Subvention affectée pas encore dépensée | Argent reçu pour un projet précis et pas encore utilisé au 31/12. On le met de côté (compte 689 → 19x) pour le dépenser l'année suivante sur ce projet. |
+| **frais de siège** | La part du coût du siège payée par chaque service | Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+| **groupe fonctionnel** | Les 3 familles de dépenses d'un ESSMS | Groupe I : exploitation courante. Groupe II : personnel. Groupe III : structure (loyers, amortissements, frais de siège). |
+| **groupe I** | Dépenses d'exploitation courante | Carburant, fournitures, alimentation, petit matériel. |
+| **groupe II** | Dépenses de personnel | Salaires, charges sociales, intérim, formation. |
+| **groupe III** | Dépenses de structure | Loyers, assurances, entretien, amortissements, frais de siège, intérêts. |
+| **habitat inclusif** | Logement partagé en milieu ordinaire | Des personnes handicapées vivent ensemble chez elles, avec un projet de vie partagé animé par l'association. |
+| **indemnités kilométriques** | Remboursement des km faits avec sa voiture | Barème en € par km, selon la puissance du véhicule (CV). Compte 6251. |
+| **lettrage** | Relier une facture et son paiement | Dans un compte de tiers, la facture et le virement reçoivent la même lettre (A, B…) : ils s'annulent. |
+| **milieu ordinaire** | La vie « comme tout le monde » | École, entreprise, logement ordinaires, plutôt qu'un établissement spécialisé. |
+| **OD analytique** | Écriture de reclassement entre services | Elle change seulement le code analytique d'une charge, pas le compte général. |
+| **pair-aidance** | Aide apportée par une personne qui vit la même situation | Une personne porteuse de trisomie 21 en accompagne une autre grâce à sa propre expérience. |
+| **plan de trésorerie** | Prévoir l'argent en banque mois par mois | Solde de début + encaissements − décaissements = solde de fin, sur 6 à 12 mois. |
+| **produit à recevoir** | Recette acquise mais pas encore reçue | Ex. : solde d'une subvention AGEFIPH dû au 31/12, versé en mars. |
+| **quote-part** | La part qui revient à chacun | Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+| **report à nouveau** | Résultat gardé en attente | Excédent (110) ou déficit (119) reporté sur un budget suivant. |
+| **réserve de compensation** | Excédent mis de côté pour un futur déficit | Compte 10686 : si le service est en déficit plus tard, on puise dans cette réserve. |
+| **section analytique** | Une « case » de la comptabilité analytique | Un service ou un projet (ex. : 20-SAVS) dans lequel on range les charges et les produits qui le concernent. |
+| **section d'attente** | Section analytique provisoire | Pour les charges dont on ne connaît pas encore le service. Elle doit être vide à la clôture. |
+| **subrogation** | L'employeur touche les IJSS à la place du salarié | L'association maintient le salaire pendant l'arrêt maladie et reçoit directement les indemnités de la CPAM. |
+| **subvention affectée** | Subvention donnée pour un projet précis | Elle ne peut servir qu'à ce projet ; ce qui n'est pas dépensé va en fonds dédiés ou est remboursé. |
+| **taux d'activité** | Activité réalisée / activité prévue | Ex. : heures d'accompagnement faites ÷ heures prévues. Les financeurs surveillent la sous-activité. |
+| **taux d'occupation** | Places occupées / places autorisées | Ex. : 42 enfants accompagnés pour 45 places = 93,3 %. |
+| **taxe sur les salaires** | Impôt des employeurs sans TVA | L'association, non soumise à la TVA, paie cet impôt sur les salaires bruts ; un abattement annuel s'applique aux associations. |
+| **valeur du point** | Base du salaire en CCN 66 | Salaire = coefficient × valeur du point (valeur à vérifier chaque année). |

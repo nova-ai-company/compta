@@ -3,6 +3,33 @@
 
 **Corner case :** oui — le financeur plafonne les frais de structure à 3 % alors que l'association impute 4,5 % ; la tranche 2027 est versée en avance en décembre 2026 ; et le programme risque de ne pas consommer toute la subvention avant son terme
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **50-PAIRS** | Section analytique du projet « Pairs et voix ». Projet expérimental de pair-aidance et d'autoreprésentation, financé par une fondation et la Région. |
+    | **ANC** | Autorité des normes comptables. L'organisme qui écrit les règles comptables françaises (le PCG). |
+    | **CAC** | Commissaire aux comptes. Auditeur indépendant qui certifie les comptes de certaines entreprises (au-delà de seuils) et associations. |
+    | **ETP** | Équivalent temps plein. Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
+    | **FALC** | Facile à lire et à comprendre. Méthode d'écriture simple, illustrée, pensée pour les personnes avec une déficience intellectuelle. Très utilisée dans le réseau Trisomie 21. |
+    | **SIREN** | Numéro d'identification de l'entreprise (9 chiffres). Identifiant unique de chaque entreprise en France. Mention obligatoire sur les factures, y compris celui du client depuis la facturation électronique. |
+    | **Compte 194** | Fonds dédiés sur subventions. Subvention reçue pour un projet précis, pas encore dépensée à la clôture (numéro à vérifier dans le plan de l'association). |
+    | **Compte 641** | Rémunérations du personnel. Salaires bruts. |
+    | **Compte 689** | Reports en fonds dédiés. On « met de côté » à la clôture la part d'une subvention affectée non encore dépensée. |
+    | **Compte 789** | Utilisation des fonds dédiés. L'année où la subvention mise de côté est dépensée, on la « reprend » en produit. |
+    | **Compte 6894** | Reports en fonds dédiés sur subventions (sous-compte du 689, à vérifier). |
+    | **Compte 7894** | Utilisation des fonds dédiés sur subventions (sous-compte du 789, à vérifier). |
+    | **charges directes** | Charge qui concerne un seul service. On sait tout de suite à quel service l'imputer (ex. : le matériel pédagogique du SESSAD). |
+    | **Compte rendu financier** | Rendre compte de l'usage d'une subvention. Budget prévu, dépenses réelles, écarts expliqués (Cerfa 15059). |
+    | **fonds dédiés** | Subvention affectée pas encore dépensée. Argent reçu pour un projet précis et pas encore utilisé au 31/12. On le met de côté (compte 689 → 19x) pour le dépenser l'année suivante sur ce projet. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **pair-aidance** | Aide apportée par une personne qui vit la même situation. Une personne porteuse de trisomie 21 en accompagne une autre grâce à sa propre expérience. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **subvention affectée** | Subvention donnée pour un projet précis. Elle ne peut servir qu'à ce projet ; ce qui n'est pas dépensé va en fonds dédiés ou est remboursé. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, fondation, personnes et chiffres fictifs. Relisez la [fiche de l'association](../fiche_association_Cap_Horizons_21.md) avant de commencer.*
 
 !!! abstract "En clair"

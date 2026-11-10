@@ -3,6 +3,46 @@
 
 **Corner case :** oui — une erreur de base de calcul cachée dans la ligne d'un seul salarié ; un salarié travaille pour deux services ; et les IJSS reçues de la CPAM viennent en diminution de la charge (le compte 791 n'existe plus)
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **01-SIEGE** | Section analytique du siège. Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **40-HABITAT** | Section analytique de l'habitat inclusif. « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+    | **AGIRC-ARRCO** | Caisse de retraite complémentaire des salariés. Régime de retraite complémentaire obligatoire des salariés du privé. |
+    | **CPAM** | Caisse primaire d'assurance maladie. Verse notamment les indemnités journalières en cas d'arrêt maladie. |
+    | **DSN** | Déclaration sociale nominative. Déclaration mensuelle de la paie envoyée par l'entreprise : elle remplace la plupart des déclarations sociales. Due le 5 ou le 15 du mois suivant selon l'effectif. |
+    | **IJSS** | Indemnités journalières de la Sécurité sociale. Somme versée par la CPAM au salarié en arrêt. Si l'employeur maintient le salaire (subrogation), il les reçoit à sa place. |
+    | **PAS** | Prélèvement à la source. Impôt sur le revenu retenu directement sur le salaire par l'employeur, puis reversé à l'État via la DSN. |
+    | **PCG** | Plan comptable général. Le référentiel comptable français : liste des comptes (classes 1 à 7) et règles d'enregistrement. Version applicable : règlement ANC 2014-03 modifié par l'ANC 2022-06. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **URSSAF** | Organisme de recouvrement des cotisations sociales. Collecte les cotisations sociales (maladie, famille, CSG…) des salariés et des indépendants. |
+    | **Compte 421** | Personnel. Rémunérations dues : les salaires nets à verser. |
+    | **Compte 425** | Personnel. Avances et acomptes : argent avancé à un salarié avant la paie. |
+    | **Compte 431** | Sécurité sociale (URSSAF). Cotisations sociales à payer à l'URSSAF. |
+    | **Compte 437** | Autres organismes sociaux. Retraite complémentaire, prévoyance, mutuelle. |
+    | **Compte 512** | Banque. Le compte bancaire de l'association. |
+    | **Compte 641** | Rémunérations du personnel. Salaires bruts. |
+    | **Compte 645** | Charges de sécurité sociale et de prévoyance. Cotisations patronales. |
+    | **Compte 791** | Transferts de charges. Compte SUPPRIMÉ depuis le PCG 2025 : ne plus l'utiliser. |
+    | **Compte 4387** | Organismes sociaux. Produits à recevoir (ex. : IJSS attendues de la CPAM). |
+    | **Compte 4421** | Prélèvement à la source (impôt sur le revenu). Impôt retenu sur le salaire, reversé à l'État. |
+    | **Compte 6411** | Salaires, appointements. Salaire brut de base. Les IJSS reçues en subrogation viennent en diminution. |
+    | **Compte 6451** | Cotisations à l'URSSAF (part patronale). |
+    | **Compte 6452** | Cotisations aux mutuelles (part patronale). |
+    | **Compte 6453** | Cotisations aux caisses de retraite complémentaire (part patronale). |
+    | **code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **habitat inclusif** | Logement partagé en milieu ordinaire. Des personnes handicapées vivent ensemble chez elles, avec un projet de vie partagé animé par l'association. |
+    | **jours de carence** | Jours d'arrêt maladie sans IJSS. Les 3 premiers jours d'un arrêt ne sont pas indemnisés par la CPAM (l'employeur peut les maintenir selon la convention). |
+    | **produits à recevoir** | Recette acquise mais pas encore reçue. Ex. : solde d'une subvention AGEFIPH dû au 31/12, versé en mars. |
+    | **subrogation** | L'employeur touche les IJSS à la place du salarié. L'association maintient le salaire pendant l'arrêt maladie et reçoit directement les indemnités de la CPAM. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes et documents fictifs.*
 
 !!! abstract "En clair"

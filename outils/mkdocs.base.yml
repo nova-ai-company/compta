@@ -62,9 +62,9 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_css:
-  - assets/extra.css?v=3
+  - assets/extra.css?v=4
 
 extra_javascript:
   - assets/qcm.js?v=2
-  - assets/lexique.js?v=3
-  - assets/bulles.js?v=3
+  - assets/lexique.js?v=4
+  - assets/bulles.js?v=4

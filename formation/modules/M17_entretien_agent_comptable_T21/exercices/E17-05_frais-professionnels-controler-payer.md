@@ -3,6 +3,29 @@
 
 **Corner case :** oui — un salarié demande des kilomètres et un plein d'essence pour des jours où il utilisait un véhicule de service payé avec la carte carburant ; un chef de service a signé lui-même son propre état de frais
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **CCN** | Convention collective nationale. Accord de branche qui complète le Code du travail (salaires minimaux, primes, congés…). |
+    | **CESF** | Conseiller (ou conseillère) en économie sociale et familiale. Travailleur social qui aide les personnes à gérer leur budget, leur logement, leur vie quotidienne. Métier fréquent dans un SAVS. |
+    | **CV** | Chevaux fiscaux (puissance fiscale). Puissance administrative d'une voiture, inscrite sur la carte grise. Le barème kilométrique dépend du nombre de CV. |
+    | **OD** | Opérations diverses. Journal des écritures qui ne sont ni des achats, ni des ventes, ni de la banque : paie, amortissements, provisions, corrections, régularisations de clôture. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **Compte 421** | Personnel. Rémunérations dues : les salaires nets à verser. |
+    | **Compte 425** | Personnel. Avances et acomptes : argent avancé à un salarié avant la paie. |
+    | **Compte 4286** | Personnel. Autres charges à payer (ex. : frais à rembourser à la clôture). |
+    | **Compte 6251** | Voyages et déplacements. Indemnités kilométriques, péages, parking, train. |
+    | **Compte 6256** | Missions. Repas et frais des salariés en déplacement. |
+    | **code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **habitat inclusif** | Logement partagé en milieu ordinaire. Des personnes handicapées vivent ensemble chez elles, avec un projet de vie partagé animé par l'association. |
+    | **indemnités kilométriques** | Remboursement des km faits avec sa voiture. Barème en € par km, selon la puissance du véhicule (CV). Compte 6251. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes et documents fictifs.*
 
 !!! abstract "En clair"

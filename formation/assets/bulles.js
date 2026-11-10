@@ -18,11 +18,12 @@
   }
 
   function wrap(root) {
+    var seenTerms = {};
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode: function (n) {
         if (!n.nodeValue || n.nodeValue.length < 1) return NodeFilter.FILTER_REJECT;
         for (var p = n.parentNode; p && p !== root; p = p.parentNode) {
-          if (SKIP.test(p.nodeName) || (p.classList && (p.classList.contains("bulle") || p.classList.contains("headerlink")))) return NodeFilter.FILTER_REJECT;
+          if (SKIP.test(p.nodeName) || (p.classList && (p.classList.contains("bulle") || p.classList.contains("headerlink") || p.classList.contains("glossaire-page")))) return NodeFilter.FILTER_REJECT;
         }
         return NodeFilter.FILTER_ACCEPT;
       }
@@ -35,6 +36,20 @@
       while ((m = RE.exec(text))) {
         var code = m[2], start = m.index + m[1].length;
         if (/^\d{4}$/.test(code) && YEAR_CTX.test(text.slice(Math.max(0, start - 14), start))) continue;
+        // Comptes (401, 6061…) : ne pas confondre avec un montant (2 401,00 € ; 401 250,00 ; 120 €).
+        if (/^\d{3,6}x?$/.test(code)) {
+          var bef = text.slice(Math.max(0, start - 2), start), aft = text.slice(start + code.length, start + code.length + 6);
+          if (/\d[\s\u00a0\u202f]$/.test(bef) || /^(,\d|\.\d|[\s\u00a0\u202f]?[€%])/.test(aft) ||
+              (code.length === 3 && (/^[\s\u00a0\u202f]\d{3}([,\s\u00a0\u202f]|$)/.test(aft) ||
+                /^[\s\u00a0\u202f]?(km|h\b|m²|m2|an|jour|place|heure|personne|salarié|mois|enfant|adulte|habitant|dossier|facture|ligne|question|%)/i.test(text.slice(start + code.length, start + code.length + 12)) ||
+                /[×x*+=−\-/:][\s\u00a0\u202f]?$/.test(bef)))) continue;
+        }
+        // Mots du métier : une seule bulle par page (la première fois), pour ne pas surcharger le texte.
+        if (LEX[code].c === "terme") {
+          var tk = LEX[code].t + LEX[code].d;
+          if (seenTerms[tk]) continue;
+          seenTerms[tk] = 1;
+        }
         frag = frag || document.createDocumentFragment();
         frag.appendChild(document.createTextNode(text.slice(last, start)));
         var s = document.createElement("span");

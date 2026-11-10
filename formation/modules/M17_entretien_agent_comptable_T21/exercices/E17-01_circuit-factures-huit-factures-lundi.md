@@ -3,6 +3,49 @@
 
 **Corner case :** oui — une facture de 2025 arrive en novembre 2026 alors qu'une charge à payer avait été passée à la clôture ; et un « changement de RIB » arrive par mail le même jour qu'une facture parfaitement conforme
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **01-SIEGE** | Section analytique du siège. Direction générale, comptabilité, RH. Son coût est refacturé aux services sous forme de frais de siège. |
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **40-HABITAT** | Section analytique de l'habitat inclusif. « La Maison partagée » (6 habitants), financée par le Département (aide à la vie partagée). |
+    | **50-PAIRS** | Section analytique du projet « Pairs et voix ». Projet expérimental de pair-aidance et d'autoreprésentation, financé par une fondation et la Région. |
+    | **90-ASSO** | Section analytique de la vie associative. Adhésions, dons, événements : ce qui n'appartient à aucun service financé. |
+    | **AC** | Journal des achats. Journal où l'on enregistre les factures fournisseurs. |
+    | **BAP** | Bon à payer. Accord donné par un responsable pour qu'une facture fournisseur soit payée. |
+    | **BC** | Bon de commande. Document par lequel le client commande : il fixe quantités et prix. À rapprocher de la facture. |
+    | **BL** | Bon de livraison. Document qui prouve que la marchandise a été livrée. Sert au cut-off (rattachement à la bonne période). |
+    | **EURL** | Entreprise unipersonnelle à responsabilité limitée. SARL avec un seul associé ; imposée à l'IR par défaut, ou à l'IS sur option. Ex. : C03 Garage Martin (IS), C20 Style & Vous (IR). |
+    | **FALC** | Facile à lire et à comprendre. Méthode d'écriture simple, illustrée, pensée pour les personnes avec une déficience intellectuelle. Très utilisée dans le réseau Trisomie 21. |
+    | **FNP** | Factures non parvenues. À la clôture : charges de l'année dont la facture n'est pas encore arrivée. On les enregistre quand même (compte 408) pour que l'année supporte ses vraies charges. |
+    | **HT** | Hors taxes. Montant sans la TVA. C'est le montant HT qui va en charge ou en produit (sauf si la TVA n'est pas récupérable). |
+    | **IBAN** | Numéro de compte bancaire international. Identifiant unique d'un compte bancaire, nécessaire pour un virement. |
+    | **OD** | Opérations diverses. Journal des écritures qui ne sont ni des achats, ni des ventes, ni de la banque : paie, amortissements, provisions, corrections, régularisations de clôture. |
+    | **PA** | Plateforme agréée. Opérateur agréé par l'État (anciennement « PDP ») qui transmet les factures électroniques entre entreprises et envoie les données à l'administration. |
+    | **RIB** | Relevé d'identité bancaire. Document qui donne les coordonnées bancaires (IBAN, BIC) d'un compte. |
+    | **SARL** | Société à responsabilité limitée. Société classique des PME ; le gérant majoritaire est TNS. Ex. : C01 Boulangerie Dupain. |
+    | **SAS** | Société par actions simplifiée. Société très souple ; le président est assimilé salarié. Ex. : C02 Bâtisseurs du Sud, C08 TechNova. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **SIREN** | Numéro d'identification de l'entreprise (9 chiffres). Identifiant unique de chaque entreprise en France. Mention obligatoire sur les factures, y compris celui du client depuis la facturation électronique. |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **TVA** | Taxe sur la valeur ajoutée. Impôt payé par le consommateur final, collecté par les entreprises. L'entreprise reverse à l'État la TVA collectée sur ses ventes moins la TVA déductible sur ses achats. |
+    | **Compte 4081** | Fournisseurs. Factures non parvenues (sous-compte du 408). |
+    | **Compte 6063** | Fournitures d'entretien et de petit équipement. Petit matériel (moins de 500 € environ), produits d'entretien. |
+    | **Compte 6064** | Fournitures administratives. Papier, stylos, cartouches. |
+    | **Compte 6135** | Locations mobilières. Location de véhicules (LLD), de photocopieurs. |
+    | **Compte 6156** | Maintenance. Contrats de maintenance (informatique, logiciel). |
+    | **bon à payer** | Accord écrit de la direction pour payer. Sans bon à payer de la directrice, la facture ne part pas en paiement. |
+    | **code analytique** | Le code du service saisi sur chaque ligne. Il dit « pour qui » est la charge (ex. : 10-SESSAD). |
+    | **emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **factures non parvenues** | Charge sans facture au 31/12 (FNP). Le service est fait mais la facture n'est pas arrivée : on enregistre la charge quand même (compte 408). |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes, sociétés et documents fictifs.*
 
 !!! abstract "En clair"

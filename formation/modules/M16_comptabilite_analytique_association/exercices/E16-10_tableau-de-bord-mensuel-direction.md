@@ -3,6 +3,45 @@
 
 **Corner case :** oui — les indicateurs calculés « brut » sur la comptabilité d'octobre sont faussés (amortissements passés seulement au 31/12, frais de siège facturés par trimestre, crédits non reconductibles encaissés mais pas encore dépensés) : il faut retraiter avant d'afficher un feu vert
 
+<!-- glossaire-page -->
+??? tip glossaire-page "📖 Les mots et codes de cette page — cliquez pour ouvrir"
+    Sur le site, vous pouvez aussi **cliquer sur un mot souligné en pointillés** dans le texte.
+
+    | Mot / code | Ce que ça veut dire |
+    |---|---|
+    | **10-SESSAD** | Section analytique du SESSAD. Le service pour enfants (45 places), financé par l'ARS. Toute charge du SESSAD porte ce code. |
+    | **20-SAVS** | Section analytique du SAVS. Le service pour adultes (60 places), financé par le Département. Toute charge du SAVS porte ce code. |
+    | **30-EMPLOI** | Section analytique de l'emploi accompagné. Le dispositif qui aide 40 personnes à trouver et garder un emploi. Financé par l'ARS, l'AGEFIPH et le FIPHFP. |
+    | **CNR** | Crédits non reconductibles. Financement ponctuel accordé par l'ARS pour une dépense exceptionnelle (remplacement, véhicule). Il n'est pas renouvelé l'année suivante. |
+    | **FIN.MOIS** | Fonction Excel « fin du mois ». Renvoie le dernier jour du mois d'une date (ex. : FIN.MOIS(A2;0) donne le 31/10 pour le 12/10). Utile pour les échéances. |
+    | **GI** | Groupe I (groupe fonctionnel). Dans le budget d'un ESSMS : les dépenses d'exploitation courante (carburant, fournitures, alimentation…). |
+    | **GII** | Groupe II (groupe fonctionnel). Dans le budget d'un ESSMS : les dépenses de personnel (salaires, charges sociales, intérim). |
+    | **GIII** | Groupe III (groupe fonctionnel). Dans le budget d'un ESSMS : les dépenses de structure (loyers, assurances, amortissements, frais de siège). |
+    | **RECHERCHEV** | Fonction Excel de recherche verticale. Cherche une valeur dans la 1re colonne d'un tableau et renvoie l'info d'une autre colonne. Toujours finir par FAUX (correspondance exacte), sinon le résultat peut être faux. |
+    | **RECHERCHEX** | Fonction Excel de recherche moderne. Remplace RECHERCHEV : cherche une valeur dans une colonne et renvoie celle d'une autre colonne, à gauche ou à droite, en correspondance exacte par défaut. |
+    | **SAVS** | Service d'accompagnement à la vie sociale. Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+    | **SESSAD** | Service d'éducation spéciale et de soins à domicile. Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
+    | **SI** | Stock initial. Stock au début de l'exercice (= stock final de l'exercice précédent). |
+    | **SOMME.SI.ENS** | Fonction Excel de somme avec conditions. Additionne les montants qui respectent un ou plusieurs critères (ex. : total des factures de l'établissement de Nice en septembre). |
+    | **TCD** | Tableau croisé dynamique. Outil d'Excel qui regroupe et totalise des données (très utile en révision). |
+    | **TDB** | Tableau de bord. Une page de quelques indicateurs suivis chaque mois par la direction (activité, coût, budget, trésorerie). |
+    | **TTC** | Toutes taxes comprises. Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
+    | **Compte 401** | Fournisseurs. Ce que l'association doit à ses fournisseurs (factures reçues, pas encore payées). |
+    | **Compte 437** | Autres organismes sociaux. Retraite complémentaire, prévoyance, mutuelle. |
+    | **Compte 468** | Divers. Charges à payer et produits à recevoir. |
+    | **Compte 512** | Banque. Le compte bancaire de l'association. |
+    | **crédits non reconductibles** | Financement ponctuel (CNR). Somme accordée une seule fois par l'ARS pour une dépense exceptionnelle ; elle n'est pas renouvelée l'année suivante. |
+    | **emploi accompagné** | Dispositif d'aide vers et dans l'emploi. Un conseiller accompagne la personne et l'employeur, dans une entreprise ordinaire, aussi longtemps que nécessaire. |
+    | **frais de siège** | La part du coût du siège payée par chaque service. Le siège (direction, compta, RH) n'a pas de financement propre : chaque service en paie une part, au taux autorisé par le financeur (ex. : 4,5 %). |
+    | **groupe fonctionnel** | Les 3 familles de dépenses d'un ESSMS. Groupe I : exploitation courante. Groupe II : personnel. Groupe III : structure (loyers, amortissements, frais de siège). |
+    | **Groupe I** | Dépenses d'exploitation courante. Carburant, fournitures, alimentation, petit matériel. |
+    | **Groupe II** | Dépenses de personnel. Salaires, charges sociales, intérim, formation. |
+    | **Groupe III** | Dépenses de structure. Loyers, assurances, entretien, amortissements, frais de siège, intérêts. |
+    | **quote-part** | La part qui revient à chacun. Ex. : la quote-part de loyer du SAVS = loyer × m² du SAVS ÷ m² total. |
+    | **taux d'activité** | Activité réalisée / activité prévue. Ex. : heures d'accompagnement faites ÷ heures prévues. Les financeurs surveillent la sous-activité. |
+    | **taux d'occupation** | Places occupées / places autorisées. Ex. : 42 enfants accompagnés pour 45 places = 93,3 %. |
+<!-- /glossaire-page -->
+
 > *Cadre de formation : association, personnes et chiffres fictifs. Cet exercice reprend les chiffres de [E16-06](E16-06_suivi-budgetaire-30-septembre.md) au 30/09 et y ajoute le mois d'octobre. Excel en français : séparateur « ; », fonctions en français.*
 
 !!! abstract "En clair"

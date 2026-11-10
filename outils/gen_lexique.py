@@ -24,6 +24,9 @@ CATS = {
     "organisme": "Organisme / administration",
     "texte": "Texte de référence",
     "sigle": "Sigle courant",
+    "analytique": "Code analytique (association Cap Horizons 21, M16-M17)",
+    "compte": "Compte du plan comptable",
+    "terme": "Mot du métier",
 }
 
 
@@ -144,9 +147,16 @@ for k in sorted(c for c in lex if lex[c]["c"] == "module"):
     mdir = glob.glob(os.path.join(DOCS, "modules", k + "_*"))[0]
     out.append(f"| **{k}** | [{lex[k]['t'].split(' — ', 1)[1]}]({os.path.relpath(os.path.join(mdir, 'cours.md'), DOCS)}) |")
 
-order = ["notation", "declaration", "fiscal", "social", "journal", "forme", "organisme", "texte", "sigle"]
+order = ["notation", "declaration", "fiscal", "social", "journal", "forme", "organisme", "texte", "sigle",
+         "analytique", "compte", "terme"]
 for cat in order:
-    items = sorted((k for k, (c, _, _) in SIGLES.items() if c == cat), key=lambda s: s.lower())
+    seen = set()
+    items = []
+    for k in sorted((k for k, (c, _, _) in SIGLES.items() if c == cat), key=lambda s: s.lower()):
+        if SIGLES[k][1:] in seen:  # variantes d'un même mot (pluriel, majuscule)
+            continue
+        seen.add(SIGLES[k][1:])
+        items.append(k)
     if not items:
         continue
     out += ["", f"## {CATS[cat]}", "", "| Sigle | Signification | Explication simple |", "|---|---|---|"]
