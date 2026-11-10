@@ -67,6 +67,8 @@ formation/
 | **M13** | Secteurs spécifiques et corner cases | Association, agricole, holding et intégration fiscale, entreprise en difficulté, agence immobilière, création, fraude, cryptoactifs… |
 | **M14** | Préparer l'entretien d'aide-comptable chez GSF | Connaître GSF, ses processus achats/ventes, sa TVA, sa paie (propreté), 103 écritures types, 20 exercices, 124 QCM avec 3 examens blancs de 15 questions |
 | **M15** | Entretien GSF : les questions de comptabilité générale | Répondre aux questions techniques d'un entretien d'assistante comptable (profil 2 ans) : 30 écritures par cœur, 100 questions orales avec réponses modèles, 15 tests techniques corrigés, 60 QCM et 3 examens blancs. **À faire avant le M14.** |
+| **M16** | Comptabilité analytique et suivi budgétaire en association médico-sociale | Codifier une facture par service, répartir les charges communes (m², ETP, km, temps passé), calculer les frais de siège et un coût complet, suivre le budget, calculer les fonds dédiés ; 10 exercices, 60 QCM, 3 examens blancs. Association fictive Cap Horizons 21. |
+| **M17** | Le poste d'agent comptable en association médico-sociale (entretien Trisomie 21) | Circuit des factures, paiements, variables de paie, charges sociales, frais des professionnels, EPRD/ERRD, compte rendu financier, budget d'appel à projets, plan de trésorerie, clôture ; 11 exercices et questions d'entretien. **Faire le M16 avant ou en parallèle.** |
 | **Annexe** | Glossaire français ↔ anglais | Travailler avec un groupe étranger, un CAC anglophone, un reporting IFRS |
 
 ---

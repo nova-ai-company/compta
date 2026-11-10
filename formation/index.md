@@ -12,6 +12,8 @@ Une formation **100 % pratique** : vous gérez un portefeuille de **25 clients**
 - :material-format-list-numbered: **[Index des exercices](02_INDEX_DES_EXERCICES.md)** — tous les exercices, par module et par difficulté
 - :material-account-tie: **[Entretien GSF — compta générale](modules/M15_entretien_compta_generale_GSF/cours.md)** — pour un profil 2 ans : 100 questions d'entretien, tests techniques, QCM (à faire en premier)
 - :material-briefcase-check: **[Préparer l'entretien GSF](modules/M14_preparation_entretien_GSF/cours.md)** — connaître GSF, ses processus, exercices et QCM (approfondissement)
+- :material-hand-heart: **[Agent comptable en association — analytique](modules/M16_comptabilite_analytique_association/cours.md)** — comptabilité analytique par service, frais de siège, coût complet, suivi budgétaire, fonds dédiés : 10 exercices, 60 QCM
+- :material-account-heart: **[Entretien agent comptable (réseau Trisomie 21)](modules/M17_entretien_agent_comptable_T21/cours.md)** — le poste au quotidien : factures, paie, frais, EPRD/ERRD, appels à projets, trésorerie, questions d'entretien
 - :material-translate: **[Glossaire FR ↔ EN](99_GLOSSAIRE_FR_EN.md)** — 1 100 termes, phrases utiles, faux-amis
 
 </div>

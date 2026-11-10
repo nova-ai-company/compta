@@ -2,7 +2,7 @@
 
 > Généré automatiquement. Cliquez sur l'énoncé, faites l'exercice, **puis seulement** ouvrez le corrigé.
 
-**186 exercices** répartis en 16 modules.
+**207 exercices** répartis en 18 modules.
 
 ## M00 — Organiser et piloter son portefeuille comme un senior
 
@@ -301,3 +301,38 @@
 | E15-13 | Questions « à l'oral » chronométrées : 15 mini-cas de comptabilité générale | GSF Riviera SAS (filiale régionale **fictive**, dossier tenu au siège) — établissement de Nice | ★☆☆ | [énoncé](modules/M15_entretien_compta_generale_GSF/exercices/E15-13_questions-orales-chronometrees.md) | [corrigé](modules/M15_entretien_compta_generale_GSF/corriges/E15-13_corrige.md) |
 | E15-14 | Du compte de résultat à l'IS : EBE, résultat fiscal et écritures d'impôt | GSF Riviera SAS (filiale régionale **fictive**, dossier tenu au siège) — comptes de l'exercice 2025 | ★★☆ | [énoncé](modules/M15_entretien_compta_generale_GSF/exercices/E15-14_resultat-comptable-sig-is.md) | [corrigé](modules/M15_entretien_compta_generale_GSF/corriges/E15-14_corrige.md) |
 | E15-15 | Cas de synthèse « Votre première semaine » : saisie, rapprochement, clôture du mois, TVA et mail | GSF Riviera SAS (filiale régionale **fictive**, dossier tenu au siège) — établissement de Nice | ★★☆ | [énoncé](modules/M15_entretien_compta_generale_GSF/exercices/E15-15_synthese-premiere-semaine.md) | [corrigé](modules/M15_entretien_compta_generale_GSF/corriges/E15-15_corrige.md) |
+
+## M16 — Comptabilité analytique et suivi budgétaire en association médico-sociale
+
+📘 [Cours](modules/M16_comptabilite_analytique_association/cours.md)
+
+| N° | Exercice | Client | Difficulté | Énoncé | Corrigé |
+|---|---|---|---|---|---|
+| E16-01 | Codifier douze factures : compte de charge, code analytique, groupe fonctionnel | Cap Horizons 21 (association fictive) | ★☆☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-01_codifier-douze-factures.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-01_corrige.md) |
+| E16-02 | Répartir les charges communes avec des clés de répartition | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-02_repartir-charges-communes.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-02_corrige.md) |
+| E16-03 | Un salarié pour deux services : ventiler les salaires au temps passé | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-03_ventiler-salaires-temps-passe.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-03_corrige.md) |
+| E16-04 | Calculer et répartir les frais de siège | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-04_calculer-repartir-frais-siege.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-04_corrige.md) |
+| E16-05 | Combien coûte un accompagnement ? Coût complet par place et par heure | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-05_cout-complet-place-heure.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-05_corrige.md) |
+| E16-06 | Suivi budgétaire au 30 septembre : budget, réalisé, écarts et projection | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-06_suivi-budgetaire-30-septembre.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-06_corrige.md) |
+| E16-07 | Le projet expérimental « Pairs et voix » : subvention affectée et fonds dédiés | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-07_projet-pairs-et-voix-fonds-dedies.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-07_corrige.md) |
+| E16-08 | La balance analytique ne tombe pas juste : retrouver et corriger les erreurs d'imputation | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-08_balance-analytique-erreurs-imputation.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-08_corrige.md) |
+| E16-09 | Valoriser le bénévolat et les mises à disposition : le coût réel du projet Pairs | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-09_valoriser-benevolat-projet-pairs.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-09_corrige.md) |
+| E16-10 | Construire le tableau de bord mensuel de la direction | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M16_comptabilite_analytique_association/exercices/E16-10_tableau-de-bord-mensuel-direction.md) | [corrigé](modules/M16_comptabilite_analytique_association/corriges/E16-10_corrige.md) |
+
+## M17 — Le poste d'agent comptable en association médico-sociale (entretien Trisomie 21)
+
+📘 [Cours](modules/M17_entretien_agent_comptable_T21/cours.md)
+
+| N° | Exercice | Client | Difficulté | Énoncé | Corrigé |
+|---|---|---|---|---|---|
+| E17-01 | Le circuit des factures : huit factures arrivées lundi matin | Cap Horizons 21 (association fictive) | ★☆☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-01_circuit-factures-huit-factures-lundi.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-01_corrige.md) |
+| E17-02 | Préparer la campagne de paiement du 15 novembre | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-02_campagne-paiement-15-novembre.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-02_corrige.md) |
+| E17-03 | Remonter les variables de paie d'octobre au service paie | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-03_variables-paie-octobre.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-03_corrige.md) |
+| E17-04 | Journal de paie, charges sociales par salarié et paiement des salaires | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-04_journal-paie-charges-sociales-paiement-salaires.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-04_corrige.md) |
+| E17-05 | Les frais du mois des professionnels : contrôler et payer | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-05_frais-professionnels-controler-payer.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-05_corrige.md) |
+| E17-06 | Bâtir le plan de trésorerie de novembre 2026 à avril 2027 | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-06_plan-tresorerie-novembre-avril.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-06_corrige.md) |
+| E17-07 | Préparer l'EPRD 2027 du SESSAD à partir de la dotation notifiée | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-07_eprd-2027-sessad.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-07_corrige.md) |
+| E17-08 | ERRD et compte administratif 2025 : résultats par service et affectation | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-08_errd-compte-administratif-2025.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-08_corrige.md) |
+| E17-09 | La partie financière d'un appel à projets : chiffrer un nouveau dispositif sur 3 ans | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-09_appel-a-projets-emploi-accompagne.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-09_corrige.md) |
+| E17-10 | Le bilan financier du projet habitat inclusif : compte rendu financier au financeur | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-10_bilan-financier-habitat-inclusif.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-10_corrige.md) |
+| E17-11 | Clôture au 31/12/2026 avec l'expert-comptable et le commissaire aux comptes | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-11_cloture-2026-expert-comptable-cac.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-11_corrige.md) |

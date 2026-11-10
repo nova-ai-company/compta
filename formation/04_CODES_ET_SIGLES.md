@@ -8,7 +8,7 @@
 | Code | Ce que ça veut dire | Exemple |
 |---|---|---|
 | **C** + 2 chiffres | Un **client** du portefeuille du cabinet (C01 à C25) | C09 = Mode & Co, l'e-commerçant |
-| **M** + 2 chiffres | Un **module** (chapitre) de la formation (M00 à M14) | M04 = le module sur la TVA |
+| **M** + 2 chiffres | Un **module** (chapitre) de la formation (M00 à M17) | M04 = le module sur la TVA |
 | **E** + module **-** numéro | Un **exercice** : E04-03 = exercice n° 3 du module M04 | E04-03 = TVA sur la marge des véhicules d'occasion |
 | **N**, **N-1**, **N+1** | L'exercice comptable en cours, le précédent, le suivant | N = 2026, N-1 = 2025 |
 | **M**, **M+1** | Un mois donné, le mois suivant | TVA de janvier (M) déclarée en février (M+1) |
@@ -67,6 +67,8 @@
 | **M13** | [Secteurs spécifiques et corner cases](modules/M13_cas_particuliers/cours.md) |
 | **M14** | [Cours : connaître GSF et sa comptabilité](modules/M14_preparation_entretien_GSF/cours.md) |
 | **M15** | [Entretien GSF : les questions de comptabilité générale](modules/M15_entretien_compta_generale_GSF/cours.md) |
+| **M16** | [Comptabilité analytique et suivi budgétaire en association médico-sociale](modules/M16_comptabilite_analytique_association/cours.md) |
+| **M17** | [Le poste d'agent comptable en association médico-sociale (entretien Trisomie 21)](modules/M17_entretien_agent_comptable_T21/cours.md) |
 
 ## Notation (dates et périodes)
 
@@ -114,6 +116,7 @@
 | **2571** | Relevé d'acompte d'IS | Bordereau des acomptes trimestriels d'IS. |
 | **2572** | Relevé de solde d'IS | Formulaire qui liquide l'IS de l'exercice (solde à payer après les acomptes), dû le 15 du 4e mois après la clôture. |
 | **2777** | Déclaration du prélèvement sur dividendes et intérêts | Déposée le mois suivant le versement de dividendes à des personnes physiques, avec le paiement du PFNL et des prélèvements sociaux. |
+| **BP** | Budget prévisionnel | Dans le médico-social : le budget qu'un service hors CPOM (ex. : le SAVS) présente à son financeur avant le 31 octobre de l'année précédente (à vérifier chaque année). |
 | **CA12** | Déclaration annuelle de TVA | Formulaire n° 3517-CA12 des entreprises au réel simplifié : une seule déclaration par an, plus deux acomptes (juillet et décembre). |
 | **CA3** | Déclaration de TVA mensuelle (ou trimestrielle) | Formulaire n° 3310-CA3. Les entreprises au réel normal le déposent chaque mois : TVA collectée − TVA déductible = TVA à payer. Le mois M est déclaré en M+1, entre le 15 et le 24. |
 | **DAS2** | Déclaration des honoraires, commissions et droits d'auteur | Déclaration annuelle (avec la liasse) des sommes versées à des tiers non salariés : honoraires d'avocat, d'expert, commissions… dès qu'elles dépassent 1 200 € TTC par bénéficiaire et par an (seuil à vérifier). Elle permet à l'administration de recouper les revenus déclarés par ces prestataires. |
@@ -123,6 +126,8 @@
 | **DPAE** | Déclaration préalable à l'embauche | Déclaration à l'URSSAF obligatoire AVANT l'arrivée de tout nouveau salarié. |
 | **DSN** | Déclaration sociale nominative | Déclaration mensuelle de la paie envoyée par l'entreprise : elle remplace la plupart des déclarations sociales. Due le 5 ou le 15 du mois suivant selon l'effectif. |
 | **EMEBI** | Enquête mensuelle sur les échanges de biens intra-UE | Enquête statistique des douanes sur les achats et ventes de marchandises avec d'autres pays de l'UE (a remplacé la partie statistique de la DEB). |
+| **EPRD** | État des prévisions de recettes et de dépenses | Budget prévisionnel des gestionnaires sous CPOM. Il part de la ressource notifiée par le financeur (« budget par la recette »). Dépôt en général au 30 avril (à vérifier chaque année). |
+| **ERRD** | État réalisé des recettes et des dépenses | Le compte rendu de l'EPRD après la clôture : réalisé, écarts, proposition d'affectation du résultat. Dépôt en général au 30 avril N+1 (à vérifier). |
 | **IFU** | Imprimé fiscal unique (formulaire 2561) | Déclaration annuelle (avant le 15 février) des revenus de capitaux versés l'année précédente : dividendes, intérêts de comptes courants d'associés… Chaque bénéficiaire en reçoit une copie pour remplir sa déclaration d'impôt. |
 
 ## Fiscalité
@@ -171,6 +176,7 @@
 | **AT/MP** | Accident du travail / maladie professionnelle | Arrêt lié au travail ; le taux de cotisation AT/MP dépend de la sinistralité de l'entreprise. |
 | **BSPCE** | Bons de souscription de parts de créateur d'entreprise | Outil des startups (ex. : C08 TechNova) pour donner aux salariés le droit d'acheter des actions à prix fixé. |
 | **CCN** | Convention collective nationale | Accord de branche qui complète le Code du travail (salaires minimaux, primes, congés…). |
+| **CCN 66** | Convention collective nationale du 15 mars 1966 | Convention collective très répandue dans le secteur social et médico-social (établissements pour personnes inadaptées et handicapées). |
 | **CDD** | Contrat à durée déterminée | Contrat de travail avec une date de fin ; donne souvent droit à une indemnité de fin de contrat. |
 | **CDI** | Contrat à durée indéterminée | Contrat de travail sans date de fin. |
 | **CEG** | Contribution d'équilibre général | Cotisation de retraite complémentaire AGIRC-ARRCO. |
@@ -179,6 +185,7 @@
 | **CRDS** | Contribution au remboursement de la dette sociale | Petit prélèvement social (0,5 %) sur les revenus, non déductible. |
 | **CSE** | Comité social et économique | Instance représentative du personnel, obligatoire à partir de 11 salariés. |
 | **CSG** | Contribution sociale généralisée | Prélèvement social sur les revenus, en partie déductible de l'impôt sur le revenu. |
+| **GVT** | Glissement vieillesse technicité | Hausse « automatique » de la masse salariale due à l'ancienneté et aux promotions. À prévoir dans tout budget de personnel. |
 | **HS** | Heures supplémentaires | Heures travaillées au-delà de 35 h/semaine, payées avec majoration. |
 | **ICCP** | Indemnité compensatrice de congés payés | Somme versée au départ d'un salarié pour les congés qu'il n'a pas pris. |
 | **IDCC** | Identifiant de la convention collective | Numéro de la convention collective applicable (ex. : IDCC 1979 = hôtels, cafés, restaurants). |
@@ -212,6 +219,7 @@
 | **MKT** | Journal marketplace | Journal dédié aux ventes réalisées sur une place de marché (Amazon, etc.). |
 | **OD** | Opérations diverses | Journal des écritures qui ne sont ni des achats, ni des ventes, ni de la banque : paie, amortissements, provisions, corrections, régularisations de clôture. |
 | **OD-PAIE** | Opérations diverses — paie | Journal où l'on comptabilise les salaires et les charges sociales. |
+| **ODA** | Journal des opérations diverses analytiques | Journal où l'on saisit les reclassements entre services (sections analytiques) sans changer les comptes généraux. |
 | **ODG** | Opérations diverses groupe | Journal des opérations entre sociétés d'un même groupe. |
 | **VT** | Journal des ventes | Journal où l'on enregistre les factures clients (et les Z de caisse). |
 
@@ -240,11 +248,13 @@
 | Sigle | Signification | Explication simple |
 |---|---|---|
 | **AGA** | Association de gestion agréée | Organisme qui contrôle la cohérence des déclarations des entrepreneurs individuels et petites entreprises. |
+| **AGEFIPH** | Association de gestion du fonds pour l'insertion professionnelle des personnes handicapées | Finance l'emploi des personnes handicapées dans le secteur privé (ex. : cofinance le dispositif d'emploi accompagné). |
 | **AGIRC** | Retraite complémentaire des cadres | Fusionnée avec l'ARRCO dans l'AGIRC-ARRCO. |
 | **AGIRC-ARRCO** | Caisse de retraite complémentaire des salariés | Régime de retraite complémentaire obligatoire des salariés du privé. |
 | **ANC** | Autorité des normes comptables | L'organisme qui écrit les règles comptables françaises (le PCG). |
 | **ANTS** | Agence nationale des titres sécurisés | Délivre les cartes grises ; le garage (C03) avance ces taxes pour ses clients (débours). |
 | **ARRCO** | Retraite complémentaire des salariés | Fusionnée avec l'AGIRC dans l'AGIRC-ARRCO. |
+| **ARS** | Agence régionale de santé | Organisme de l'État qui autorise et finance les soins et le médico-social (ex. : la dotation du SESSAD). |
 | **BCE** | Banque centrale européenne | Son taux directeur sert de base aux pénalités de retard (taux BCE + 10 points). |
 | **CARMF** | Caisse de retraite des médecins | Caisse de retraite obligatoire des médecins libéraux (ex. : C05). |
 | **CAVP** | Caisse de retraite des pharmaciens | Caisse de retraite obligatoire des pharmaciens libéraux (ex. : C12). |
@@ -254,14 +264,25 @@
 | **CJCE** | Cour de justice des Communautés européennes | Ancien nom de la CJUE (avant 2009). |
 | **CJUE** | Cour de justice de l'Union européenne | Le tribunal européen ; ses décisions s'imposent en matière de TVA. |
 | **CNC** | Conseil national de la comptabilité | Ancien organisme de normalisation comptable, remplacé par l'ANC ; ses avis restent cités. |
+| **CNSA** | Caisse nationale de solidarité pour l'autonomie | Finance l'aide à l'autonomie (personnes âgées, handicap). L'EPRD et l'ERRD sont déposés sur sa plateforme. |
 | **CPAM** | Caisse primaire d'assurance maladie | Verse notamment les indemnités journalières en cas d'arrêt maladie. |
 | **DGCCRF** | Direction de la concurrence, de la consommation et de la répression des fraudes | Administration qui contrôle notamment les délais de paiement et peut infliger des amendes. |
 | **DGFiP** | Direction générale des finances publiques | L'administration fiscale française. |
 | **DREAL** | Direction régionale de l'environnement, de l'aménagement et du logement | Administration qui contrôle notamment les transporteurs routiers (temps de conduite) et peut infliger des amendes. |
 | **DREETS** | Direction régionale de l'économie, de l'emploi, du travail et des solidarités | Administration du travail ; elle homologue notamment les ruptures conventionnelles. |
+| **ESAT** | Établissement et service d'accompagnement par le travail | Structure qui permet à des personnes en situation de handicap de travailler dans un cadre adapté. |
+| **ESMS** | Établissement ou service médico-social | Autre façon d'écrire ESSMS : une structure autorisée et financée par l'ARS et/ou le Département. |
+| **ESSMS** | Établissement ou service social et médico-social | Structure autorisée par l'ARS et/ou le Département (SESSAD, SAVS, IME, ESAT…). Elle a son propre budget et rend des comptes à son financeur. |
+| **FIPHFP** | Fonds pour l'insertion des personnes handicapées dans la fonction publique | Finance l'emploi des personnes handicapées dans le secteur public (l'équivalent de l'AGEFIPH pour le public). |
+| **IME** | Institut médico-éducatif | Établissement qui accueille des enfants et adolescents avec une déficience intellectuelle. |
 | **INPI** | Institut national de la propriété industrielle | Gère le guichet unique des formalités d'entreprise (création, modification) et les marques et brevets. |
+| **MDPH** | Maison départementale des personnes handicapées | Reconnaît les droits des personnes handicapées et oriente vers un service (SESSAD, SAVS…). |
 | **MSA** | Mutualité sociale agricole | Sécurité sociale des agriculteurs et salariés agricoles (ex. : C15). |
 | **OGA** | Organisme de gestion agréé | Terme générique pour les associations et centres de gestion agréés (AGA, CGA). |
+| **OPCO** | Opérateur de compétences | Organisme qui finance la formation professionnelle des salariés de la branche. |
+| **SAMSAH** | Service d'accompagnement médico-social pour adultes handicapés | Comme un SAVS, avec en plus des soins. Financé par le Département et l'ARS. |
+| **SAVS** | Service d'accompagnement à la vie sociale | Service qui accompagne des adultes en situation de handicap dans leur vie quotidienne (logement, budget, loisirs). Financé par le Département. |
+| **SESSAD** | Service d'éducation spéciale et de soins à domicile | Service qui accompagne des enfants et jeunes en situation de handicap là où ils vivent (école, domicile, crèche). Financé par l'ARS. |
 | **SIE** | Service des impôts des entreprises | Le centre des impôts dont dépend l'entreprise : interlocuteur pour la TVA, l'IS, la CFE. |
 | **SSI** | Sécurité sociale des indépendants | Régime de protection sociale des TNS, géré par l'URSSAF. |
 | **TRACFIN** | Cellule anti-blanchiment de l'État | Service à qui le cabinet doit déclarer les opérations suspectes de blanchiment (obligation LCB-FT). |
@@ -275,9 +296,11 @@
 | **ASC** | Accounting Standards Codification | Codification des normes US GAAP. |
 | **BOFiP** | Bulletin officiel des finances publiques | La doctrine officielle de l'administration fiscale : elle explique comment l'administration applique la loi. |
 | **BOSS** | Bulletin officiel de la sécurité sociale | La doctrine officielle de l'URSSAF sur les cotisations (équivalent social du BOFiP). |
+| **CASF** | Code de l'action sociale et des familles | Le code qui encadre les ESSMS : autorisation, tarification, budgets, frais de siège. |
 | **CGCT** | Code général des collectivités territoriales | Code des règles des communes et départements (ex. : la taxe de séjour). |
 | **CGI** | Code général des impôts | Le code qui contient toutes les règles fiscales (TVA, IS, IR…). « art. 39 CGI » = article 39 de ce code. |
 | **CIBS** | Code des impositions sur les biens et services | Code qui regroupe notamment les taxes sur les véhicules et l'énergie. |
+| **CRC** | Comité de la réglementation comptable | Ancien organisme de normalisation comptable, remplacé par l'ANC. Le règlement CRC 99-01 (comptes des associations) a été remplacé par le règlement ANC 2018-06. |
 | **CSS** | Code de la sécurité sociale | Le code qui contient les règles des cotisations sociales. |
 | **GAAP** | Generally Accepted Accounting Principles | Les règles comptables d'un pays (ex. : US GAAP, French GAAP = PCG). |
 | **IAS** | International Accounting Standards | Anciennes normes internationales, toujours en vigueur à côté des IFRS (ex. : IAS 16 sur les immobilisations). |
@@ -295,6 +318,7 @@
 | Sigle | Signification | Explication simple |
 |---|---|---|
 | **AAE** | Avoirs à établir | À la clôture : avoirs dus aux clients mais pas encore émis (compte 4198). |
+| **AAP** | Appel à projets | Le financeur décrit un besoin ; les associations répondent avec un projet et un budget. L'agent comptable chiffre la partie financière. |
 | **AAR** | Avoirs à recevoir | À la clôture : avoirs fournisseurs acquis mais pas encore reçus (compte 4098). |
 | **ABS** | Abus de biens sociaux — ou « autres biens et services » (TVA) | Deux sens selon le contexte : (1) délit du dirigeant qui utilise les biens de la société dans son intérêt personnel ; (2) en TVA, la ligne « TVA déductible sur autres biens et services » (compte 44566). |
 | **AG** | Assemblée générale | Réunion des associés. L'AG annuelle approuve les comptes et décide de l'affectation du résultat (dans les 6 mois de la clôture). |
@@ -306,6 +330,7 @@
 | **APD** | Avant-projet définitif | Troisième phase d'une mission d'architecte (C13) : projet arrêté. |
 | **APE** | Code d'activité principale | Code INSEE qui décrit l'activité principale de l'entreprise. |
 | **APS** | Avant-projet sommaire | Deuxième phase d'une mission d'architecte (C13). |
+| **AVP** | Aide à la vie partagée | Aide versée par le Département pour animer un habitat inclusif (projet de vie sociale et partagée des habitants). |
 | **B2B** | Business to business | Opération entre deux entreprises (professionnels). |
 | **B2C** | Business to consumer | Opération entre une entreprise et un particulier (consommateur). |
 | **BAP** | Bon à payer | Accord donné par un responsable pour qu'une facture fournisseur soit payée. |
@@ -317,13 +342,14 @@
 | **BR** | Bon de réception | Document interne qui constate la réception d'une marchandise. |
 | **BSA** | Bons de souscription d'actions | Droit d'acheter des actions plus tard à un prix fixé ; « BSA AIR » = financement de startup converti plus tard en actions. |
 | **BTP** | Bâtiment et travaux publics | Secteur de la construction (ex. : C02 Bâtisseurs du Sud). |
-| **CA** | Chiffre d'affaires (ou journal de caisse) | Le plus souvent : le total des ventes HT de l'année. Dans une liste de journaux, « CA » peut désigner le journal de caisse. |
+| **CA** | Chiffre d'affaires (ou journal de caisse, ou compte administratif) | Le plus souvent : le total des ventes HT de l'année. Dans une liste de journaux, « CA » peut désigner le journal de caisse. Dans le médico-social (M16, M17), CA = compte administratif : le compte rendu annuel d'un service hors CPOM (ex. : le SAVS) remis au Département. |
 | **CAC** | Commissaire aux comptes | Auditeur indépendant qui certifie les comptes de certaines entreprises (au-delà de seuils) et associations. |
 | **CAF** | Capacité d'autofinancement | Trésorerie dégagée par l'activité (résultat + amortissements et provisions). Sert à rembourser les emprunts et investir. |
 | **CAO** | Conception assistée par ordinateur | Logiciel de dessin technique (architectes, C13). |
 | **CB** | Carte bancaire | Paiement par carte. Les encaissements CB arrivent en banque nets de commission. |
 | **CCA** | Charges constatées d'avance — ou compte courant d'associé | Deux sens selon le contexte : (1) clôture : charge payée en N mais qui concerne N+1 (compte 486) ; (2) financement : argent prêté par un associé à sa société (compte 455). |
 | **CCAP** | Cahier des clauses administratives particulières | Document contractuel d'un marché de travaux (BTP). |
+| **CESF** | Conseiller (ou conseillère) en économie sociale et familiale | Travailleur social qui aide les personnes à gérer leur budget, leur logement, leur vie quotidienne. Métier fréquent dans un SAVS. |
 | **CGV** | Conditions générales de vente | Règles commerciales du vendeur (prix, délais de paiement, pénalités de retard…). |
 | **CHQ** | Chèque | Abréviation sur les relevés bancaires. |
 | **CHR** | Cafés, hôtels, restaurants | Autre nom du secteur HCR. |
@@ -331,7 +357,9 @@
 | **CIP** | Incoterm « port et assurance payés » | Comme CIF mais pour tout mode de transport. |
 | **CMR** | Lettre de voiture internationale | Document de transport routier : il prouve l'expédition (utile pour justifier une livraison intracommunautaire). |
 | **CMUP** | Coût moyen unitaire pondéré | Méthode de valorisation des stocks : chaque unité vaut le coût moyen des entrées. |
+| **CNR** | Crédits non reconductibles | Financement ponctuel accordé par l'ARS pour une dépense exceptionnelle (remplacement, véhicule). Il n'est pas renouvelé l'année suivante. |
 | **CPA** | Certified Public Accountant | Expert-comptable américain. |
+| **CPOM** | Contrat pluriannuel d'objectifs et de moyens | Contrat de 5 ans entre une association et l'ARS et/ou le Département : objectifs, moyens, et budget présenté en EPRD. |
 | **CT** | Court terme | Moins d'un an (pour les plus-values professionnelles : biens détenus moins de 2 ans). |
 | **CTA** | Centrale de traitement d'air (ou écart de conversion) | En immobilisations : équipement de ventilation ; en IFRS : écart de conversion (currency translation adjustment). |
 | **CTTE** | Camionnette (genre sur la carte grise) | Mention de la carte grise qui indique un véhicule utilitaire : TVA récupérable. |
@@ -360,10 +388,13 @@
 | **ETB083** | Établissement du Var (code analytique fictif) | Code analytique d'un établissement varois de GSF Riviera SAS (fictive). |
 | **ETH** | Ether | Crypto-monnaie : paiement à évaluer en euros au cours du jour. |
 | **ETI** | Entreprise de taille intermédiaire | Entre la PME et la grande entreprise (250 à 4 999 salariés). |
+| **ETP** | Équivalent temps plein | Mesure de l'effectif : un salarié à temps plein = 1 ETP, un mi-temps = 0,5 ETP. Sert souvent de clé de répartition (téléphonie, informatique). |
 | **EXW** | Incoterm « à l'usine » | L'acheteur prend la marchandise chez le vendeur : il supporte tous les risques dès ce moment. |
 | **FAE** | Factures à établir | À la clôture : ventes réalisées dans l'année mais pas encore facturées. On les enregistre (compte 418) pour que l'année porte son vrai chiffre d'affaires. |
+| **FALC** | Facile à lire et à comprendre | Méthode d'écriture simple, illustrée, pensée pour les personnes avec une déficience intellectuelle. Très utilisée dans le réseau Trisomie 21. |
 | **FEC** | Fichier des écritures comptables | Fichier normé qui contient toutes les écritures de l'année. Il doit être remis immédiatement en cas de contrôle fiscal. |
 | **FIFO** | Premier entré, premier sorti | Méthode de valorisation des stocks : on considère que les plus anciennes unités sortent en premier. |
+| **FINESS** | Fichier national des établissements sanitaires et sociaux | Numéro d'identification de chaque établissement ou service médico-social (SESSAD, SAVS…). Il figure sur l'EPRD, l'ERRD et les notifications de l'ARS. |
 | **FNP** | Factures non parvenues | À la clôture : charges de l'année dont la facture n'est pas encore arrivée. On les enregistre quand même (compte 408) pour que l'année supporte ses vraies charges. |
 | **FOB** | Incoterm « franco à bord » | Le risque passe à l'acheteur quand la marchandise est chargée sur le bateau au port de départ. |
 | **FSE** | Fonds social européen | Subvention européenne pour l'emploi et l'insertion (ex. : C14 Les Jardins Solidaires). |
@@ -424,10 +455,12 @@
 | **RIB** | Relevé d'identité bancaire | Document qui donne les coordonnées bancaires (IBAN, BIC) d'un compte. |
 | **RJ** | Redressement judiciaire | Procédure collective qui vise à sauver une entreprise en difficulté. |
 | **RMF** | Retour à meilleure fortune | Clause : la dette abandonnée redevient due si l'entreprise aidée redevient bénéficiaire. |
+| **RNA** | Répertoire national des associations | Numéro d'identification d'une association (commence par W), attribué à la déclaration en préfecture. |
 | **ROSP** | Rémunération sur objectifs de santé publique | Prime annuelle versée par l'Assurance maladie aux médecins (C05) : c'est une recette. |
 | **RRR** | Rabais, remises, ristournes | Réductions de prix accordées ou obtenues. Sur facture, elles diminuent directement le montant ; après coup, elles passent par un avoir. |
 | **RSE** | Responsabilité sociétale des entreprises | Engagements environnementaux et sociaux de l'entreprise. |
 | **SAP** | Éditeur de logiciel ERP | Un des principaux logiciels de gestion intégrés (ERP) des grands groupes. |
+| **SEEPH** | Semaine européenne pour l'emploi des personnes handicapées | Semaine de sensibilisation organisée chaque année en novembre. |
 | **SEPA** | Espace unique de paiement en euros | Normes européennes de virements et prélèvements en euros. |
 | **SF** | Stock final | Stock compté à l'inventaire de fin d'exercice. |
 | **SI** | Stock initial | Stock au début de l'exercice (= stock final de l'exercice précédent). |
@@ -438,6 +471,7 @@
 | **SOMME.SI.ENS** | Fonction Excel de somme avec conditions | Additionne les montants qui respectent un ou plusieurs critères (ex. : total des factures de l'établissement de Nice en septembre). |
 | **SUV** | Sport utility vehicle | Grosse voiture de tourisme : même régime qu'un VP (TVA non récupérable, amortissement plafonné). |
 | **TCD** | Tableau croisé dynamique | Outil d'Excel qui regroupe et totalise des données (très utile en révision). |
+| **TDI** | Trouble du développement intellectuel | Terme actuel pour la déficience intellectuelle. |
 | **TPE** | Très petite entreprise | Moins de 10 salariés et CA ou bilan ≤ 2 M€. |
 | **TR** | Titres-restaurant | Sur les relevés bancaires : remboursement des titres-restaurant encaissés (ex. : C01, C04). |
 | **TTC** | Toutes taxes comprises | Montant TVA incluse : c'est ce que le client paie réellement. TTC = HT + TVA. |
