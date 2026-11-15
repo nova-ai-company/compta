@@ -133,6 +133,7 @@
 .bulle--compte { --bc: var(--b-journal); }
 .bulle--analytique { --bc: var(--b-client); }
 .bulle--terme { --bc: var(--b-notation); }
+.bulle--tiers { --bc: var(--b-organisme); }
 th .bulle { color: inherit; border-bottom-color: rgba(255,255,255,.8); }
 
 .bulle-pop {
@@ -172,6 +173,7 @@ th .bulle { color: inherit; border-bottom-color: rgba(255,255,255,.8); }
 .bulle-pop--compte { --bc: var(--b-journal); }
 .bulle-pop--analytique { --bc: var(--b-client); }
 .bulle-pop--terme { --bc: var(--b-notation); }
+.bulle-pop--tiers { --bc: var(--b-organisme); }
 
 /* Légende des couleurs (page d'accueil / codes) */
 .legende-bulles { display: flex; flex-wrap: wrap; gap: .4rem .9rem; font-size: .76rem; }

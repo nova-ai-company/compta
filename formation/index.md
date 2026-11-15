@@ -14,6 +14,7 @@ Une formation **100 % pratique** : vous gérez un portefeuille de **25 clients**
 - :material-briefcase-check: **[Préparer l'entretien GSF](modules/M14_preparation_entretien_GSF/cours.md)** — connaître GSF, ses processus, exercices et QCM (approfondissement)
 - :material-hand-heart: **[Agent comptable en association — analytique](modules/M16_comptabilite_analytique_association/cours.md)** — comptabilité analytique par service, frais de siège, coût complet, suivi budgétaire, fonds dédiés : 10 exercices, 60 QCM
 - :material-account-heart: **[Entretien agent comptable (réseau Trisomie 21)](modules/M17_entretien_agent_comptable_T21/cours.md)** — le poste au quotidien : factures, paie, frais, EPRD/ERRD, appels à projets, trésorerie, questions d'entretien
+- :material-file-document-edit: **[La saisie chez Trisomie 21 France (documents réels)](modules/M18_saisie_comptable_T21/cours.md)** — le plan comptable T21 expliqué, les journaux, les 5 structures et les inter-structures, factures fournisseurs, libéraux, notes de frais, banque, fin d'exercice : 12 exercices corrigés, 50 QCM
 - :material-translate: **[Glossaire FR ↔ EN](99_GLOSSAIRE_FR_EN.md)** — 1 100 termes, phrases utiles, faux-amis
 
 </div>

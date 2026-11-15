@@ -6,7 +6,7 @@ généré par gen_lexique.py — lancer gen_lexique.py AVANT ce script).
 Lisible sur le site (encadré repliable) ET dans l'éditeur (Markdown brut).
 Relançable sans risque : l'encadré existant est remplacé.
 
-Usage : python3 outils/glossaire_pages.py [M16 M17 ...]   (par défaut : M16 M17)
+Usage : python3 outils/glossaire_pages.py [M16 M17 M18 ...]   (par défaut : M16 M17 M18)
 """
 import glob, json, os, re, sys
 
@@ -15,7 +15,7 @@ DOCS = os.path.join(ROOT, "formation")
 DEB, FIN = "<!-- glossaire-page -->", "<!-- /glossaire-page -->"
 EXCLUS_CAT = {"client", "module", "exercice"}
 EXCLUS_CLE = {"N", "M", "T1", "T2", "T3", "T4"}
-ORDRE = {"compte": 2, "terme": 3}
+ORDRE = {"compte": 2, "tiers": 3, "terme": 4}
 
 src = open(os.path.join(DOCS, "assets", "lexique.js"), encoding="utf-8").read()
 LEX = json.loads(re.search(r"window\.LEXIQUE = (\{.*\});", src).group(1))
@@ -80,7 +80,8 @@ def encadre(items):
 def traiter(path):
     txt = open(path, encoding="utf-8").read()
     txt = re.sub(r"\n?" + re.escape(DEB) + r".*?" + re.escape(FIN) + r"\n?", "\n", txt, flags=re.S)
-    items = entrees(txt)
+    # Une page qui est déjà un lexique (ex. : le plan comptable expliqué) peut refuser l'encadré.
+    items = [] if "<!-- sans-glossaire-page -->" in txt else entrees(txt)
     lines = txt.split("\n")
     # Position : après le titre H1 et les lignes d'en-tête qui le suivent immédiatement.
     i = next((n for n, l in enumerate(lines) if l.startswith("# ")), -1) + 1
@@ -102,7 +103,7 @@ def traiter(path):
     return len(items)
 
 
-mods = sys.argv[1:] or ["M16", "M17"]
+mods = sys.argv[1:] or ["M16", "M17", "M18"]
 n = 0
 for mod in mods:
     for f in sorted(glob.glob(os.path.join(DOCS, "modules", mod + "_*", "**", "*.md"), recursive=True)):

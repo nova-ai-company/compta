@@ -62,12 +62,12 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_css:
-  - assets/extra.css?v=4
+  - assets/extra.css?v=5
 
 extra_javascript:
   - assets/qcm.js?v=2
-  - assets/lexique.js?v=4
-  - assets/bulles.js?v=4
+  - assets/lexique.js?v=5
+  - assets/bulles.js?v=5
 
 nav:
   - "Accueil": "index.md"
@@ -597,5 +597,37 @@ nav:
         - "E17-09 · La partie financière d'un appel à projets : chiffrer un nouveau dispositif sur 3 ans": "modules/M17_entretien_agent_comptable_T21/corriges/E17-09_corrige.md"
         - "E17-10 · Le bilan financier du projet habitat inclusif : compte rendu financier au financeur": "modules/M17_entretien_agent_comptable_T21/corriges/E17-10_corrige.md"
         - "E17-11 · Clôture au 31/12/2026 avec l'expert-comptable et le commissaire aux comptes": "modules/M17_entretien_agent_comptable_T21/corriges/E17-11_corrige.md"
+    - "M18 — La saisie comptable chez Trisomie 21 France (documents réels)":
+      - "Cours": "modules/M18_saisie_comptable_T21/cours.md"
+      - "M18 — Banque de QCM : la saisie comptable selon les règles de Trisomie 21 France": "modules/M18_saisie_comptable_T21/QCM_questions.md"
+      - "M18 — Corrigé de la banque de QCM (saisie comptable selon les règles de Trisomie 21 France)": "modules/M18_saisie_comptable_T21/QCM_reponses.md"
+      - "Fiche du dossier : les 5 structures et les règles de saisie Trisomie 21 France": "modules/M18_saisie_comptable_T21/fiche_dossier_5_structures.md"
+      - "Le plan comptable T21 France, compte par compte": "modules/M18_saisie_comptable_T21/plan_comptable_T21_explique.md"
+      - "Exercices":
+        - "E18-01 · Quel journal, quelle structure ? 20 opérations à aiguiller": "modules/M18_saisie_comptable_T21/exercices/E18-01_quel-journal-quelle-structure.md"
+        - "E18-02 · Dix factures fournisseurs à contrôler et à saisir": "modules/M18_saisie_comptable_T21/exercices/E18-02_factures-fournisseurs-saisie.md"
+        - "E18-03 · Les factures des libéraux : convention, planning et avoirs": "modules/M18_saisie_comptable_T21/exercices/E18-03_factures-liberaux-avoirs.md"
+        - "E18-04 · Quatre notes de frais : contrôler, saisir, rembourser": "modules/M18_saisie_comptable_T21/exercices/E18-04_notes-de-frais.md"
+        - "E18-05 · Saisir le relevé bancaire d'octobre du SESSAD et faire le rapprochement": "modules/M18_saisie_comptable_T21/exercices/E18-05_releve-bancaire-sessad.md"
+        - "E18-06 · Contrôler un journal des ventes automatique, puis saisir les recettes de Cap Horizons 21": "modules/M18_saisie_comptable_T21/exercices/E18-06_ventes-clients-federation-et-produits.md"
+        - "E18-07 · Les inter-structures d'un mois dans les cinq structures, et le contrôle croisé des liaisons": "modules/M18_saisie_comptable_T21/exercices/E18-07_inter-structures-5-structures.md"
+        - "E18-08 · Petite caisse, virements internes et compte à terme": "modules/M18_saisie_comptable_T21/exercices/E18-08_caisse-virements-internes-placements.md"
+        - "E18-09 · Les travaux de fin d'exercice au 31/12/2026, structure par structure": "modules/M18_saisie_comptable_T21/exercices/E18-09_travaux-fin-exercice-t21.md"
+        - "E18-10 · Réviser la balance du SAVS au 30/11/2026 comme une senior": "modules/M18_saisie_comptable_T21/exercices/E18-10_revision-balance-analyse-senior.md"
+        - "E18-11 · Cas de synthèse : tout le mois de novembre 2026 dans les 5 structures": "modules/M18_saisie_comptable_T21/exercices/E18-11_cas-synthese-mois-complet-5-structures.md"
+        - "E18-12 · Lire et critiquer les documents comptables de Trisomie 21 France": "modules/M18_saisie_comptable_T21/exercices/E18-12_lire-et-critiquer-les-documents-t21.md"
+      - "Corrigés":
+        - "E18-01 · Quel journal, quelle structure ? 20 opérations à aiguiller": "modules/M18_saisie_comptable_T21/corriges/E18-01_corrige.md"
+        - "E18-02 · Dix factures fournisseurs à contrôler et à saisir": "modules/M18_saisie_comptable_T21/corriges/E18-02_corrige.md"
+        - "E18-03 · Les factures des libéraux : convention, planning et avoirs": "modules/M18_saisie_comptable_T21/corriges/E18-03_corrige.md"
+        - "E18-04 · Quatre notes de frais : contrôler, saisir, rembourser": "modules/M18_saisie_comptable_T21/corriges/E18-04_corrige.md"
+        - "E18-05 · Saisir le relevé bancaire d'octobre du SESSAD et faire le rapprochement": "modules/M18_saisie_comptable_T21/corriges/E18-05_corrige.md"
+        - "E18-06 · Contrôler un journal des ventes automatique, puis saisir les recettes de Cap Horizons 21": "modules/M18_saisie_comptable_T21/corriges/E18-06_corrige.md"
+        - "E18-07 · Les inter-structures d'un mois dans les cinq structures, et le contrôle croisé des liaisons": "modules/M18_saisie_comptable_T21/corriges/E18-07_corrige.md"
+        - "E18-08 · Petite caisse, virements internes et compte à terme": "modules/M18_saisie_comptable_T21/corriges/E18-08_corrige.md"
+        - "E18-09 · Les travaux de fin d'exercice au 31/12/2026, structure par structure": "modules/M18_saisie_comptable_T21/corriges/E18-09_corrige.md"
+        - "E18-10 · Réviser la balance du SAVS au 30/11/2026 comme une senior": "modules/M18_saisie_comptable_T21/corriges/E18-10_corrige.md"
+        - "E18-11 · Cas de synthèse : tout le mois de novembre 2026 dans les 5 structures": "modules/M18_saisie_comptable_T21/corriges/E18-11_corrige.md"
+        - "E18-12 · Lire et critiquer les documents comptables de Trisomie 21 France": "modules/M18_saisie_comptable_T21/corriges/E18-12_corrige.md"
   - "Glossaire FR ↔ EN": "99_GLOSSAIRE_FR_EN.md"
   - "Points à valider": "03_POINTS_A_VALIDER.md"

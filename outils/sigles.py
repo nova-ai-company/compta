@@ -616,3 +616,94 @@ TERMES = {
 for _variantes, (_t, _d) in TERMES.items():
     for _v in _variantes:
         SIGLES.setdefault(_v, ("terme", _t, _d))
+
+# =====================================================================
+# Module M18 (saisie chez Trisomie 21 France, documents réels) : comptes du
+# plan T21 à 7 chiffres, comptes de tiers, structures, journaux, outils EIG.
+# =====================================================================
+from plan_t21 import PLAN_T21  # noqa: E402
+
+for _k, (_lib, _en) in PLAN_T21.items():
+    SIGLES.setdefault(_k, ("compte", f"{_lib} (plan T21)", _en))
+
+# Comptes du dossier d'entraînement M18 absents du plan T21 (numéros fictifs).
+for _k, _t, _d in [
+    ("1849100", "Liaison SESSAD (dossier M18, fictif)", "Dans les livres du siège : ce que le SESSAD doit au siège (ou l'inverse). Son solde est l'opposé du 1840000 chez le SESSAD."),
+    ("1849200", "Liaison SAVS (dossier M18, fictif)", "Dans les livres du siège : compte de liaison avec le SAVS. Solde opposé au 1840000 chez le SAVS."),
+    ("1849300", "Liaison Emploi accompagné (dossier M18, fictif)", "Dans les livres du siège : compte de liaison avec l'emploi accompagné. Solde opposé au 1840000 chez l'Emploi."),
+    ("1849400", "Liaison Association (dossier M18, fictif)", "Dans les livres du siège : compte de liaison avec la structure Association et projets. Solde opposé au 1840000 chez l'Association."),
+    ("5121000", "Banque du siège (dossier M18, fictif)", "Compte bancaire du siège, journal BQSIE."),
+    ("5122000", "Banque du SESSAD (dossier M18, fictif)", "Compte bancaire du SESSAD, journal BQSES."),
+    ("5123000", "Banque du SAVS (dossier M18, fictif)", "Compte bancaire du SAVS, journal BQSAV."),
+    ("5124000", "Banque de l'emploi accompagné (dossier M18, fictif)", "Compte bancaire de l'emploi accompagné, journal BQEMP."),
+    ("5125000", "Banque de l'association (dossier M18, fictif)", "Compte bancaire de la structure Association et projets, journal BQASS."),
+    ("5081100", "Compte à terme du siège (dossier M18, fictif)", "Placement du siège, sous-compte du 5081XXX du plan T21 ; journal PLSIE."),
+    ("7312170", "Dotation du SAVS (dossier M18, numéro fictif)", "Le plan T21 ne prévoit que 7312130 (services pour enfants). Pour le SAVS, une autre subdivision 7312xxx est nécessaire : à vérifier dans le plan de l'association."),
+]:
+    SIGLES.setdefault(_k, ("compte", _t, _d))
+
+# Sigles déjà définis ailleurs : on ajoute le sens « T21 » sans perdre le sens d'origine.
+for _k, _t2, _d2 in [
+    ("SA", "ou, chez Trisomie 21, compte de tiers Salarié", "Chez Trisomie 21 France (M18), SA est aussi le préfixe des comptes de tiers des salariés pour leurs notes de frais (ex. : SADURAND), regroupés dans le compte 4248000."),
+    ("IS", "ou, chez Trisomie 21, inter-structures", "Chez Trisomie 21 France (M18), IS veut dire inter-structures : une opération faite par une structure pour une autre (ex. : facture EDF du siège répartie entre les services), passée par les comptes de liaison 18."),
+    ("SIE", "ou, dans le M18, la structure Siège", "Dans le module M18, SIE est aussi le code de la structure « Siège social » de l'association."),
+    ("PA", "ou, dans le M18, journal de paie", "Dans le module M18, PA est le code du journal des salaires, alimenté automatiquement par EIG RH."),
+]:
+    _c, _t, _d = SIGLES[_k]
+    SIGLES[_k] = (_c, f"{_t} — {_t2}", f"{_d} {_d2}")
+
+SIGLES.update({
+    # Préfixes et comptes de tiers (documents T21 et dossier M18)
+    "LI": ("tiers", "Compte de tiers Libéral (Trisomie 21)", "Préfixe des comptes des professionnels libéraux conventionnés (orthophoniste, psychomotricien…), ex. : LIDUPONT. Regroupés dans 4011000. Crédité à la facture, débité au paiement."),
+    "FOEDF": ("tiers", "Compte fournisseur EDF", "FO = fournisseur. Compte de tiers du fournisseur d'électricité (exemple du document T21), regroupé dans 4010000."),
+    "FOMARTIN": ("tiers", "Compte fournisseur Garage Martin (document T21)", "Exemple du document T21 : achat d'un véhicule, FOMARTIN au crédit, 2182000 au débit."),
+    "FOGARAGEMARTIN": ("tiers", "Compte fournisseur Garage Martin (dossier M18)", "Garage de Valence : entretien et achat des véhicules. Regroupé dans 4010000."),
+    "FOORANGE": ("tiers", "Compte fournisseur télécom (dossier M18)", "Contrat unique de téléphonie et internet facturé au siège, réparti en IS selon les ETP."),
+    "FOFONCIA": ("tiers", "Compte fournisseur bailleur (dossier M18)", "Foncière Rhodanienne : loyer et charges des locaux de Valence, répartis en IS selon les m²."),
+    "FOMAAF": ("tiers", "Compte fournisseur assurances (dossier M18)", "Mutuelle d'assurance : multirisque, flotte automobile, responsabilité civile."),
+    "FOBUREAU26": ("tiers", "Compte fournisseur fournitures de bureau (dossier M18)", "Fournitures administratives (6062400)."),
+    "FOLUDIK": ("tiers", "Compte fournisseur matériel éducatif (dossier M18)", "Jeux et matériel éducatif du SESSAD (6062500)."),
+    "FOINFORHONE": ("tiers", "Compte fournisseur informatique (dossier M18)", "Maintenance informatique (6156100) et matériel (2183000 si immobilisé)."),
+    "FOTOTALCARTE": ("tiers", "Compte fournisseur carte carburant (dossier M18)", "Relevé mensuel des cartes carburant des véhicules de service (6062100)."),
+    "FOFERRAND": ("tiers", "Compte fournisseur expert-comptable (dossier M18)", "Honoraires de comptabilité et de paie (6226010), répartis en IS."),
+    "FOAUDITRHO": ("tiers", "Compte fournisseur commissaire aux comptes (dossier M18)", "Honoraires du CAC, répartis en IS."),
+    "LIDUPONT": ("tiers", "Compte libéral : orthophoniste Dupont", "Exemple du document T21 : LIDUPONT crédité, 6223221 Honoraires orthophonistes débité."),
+    "LIMOREAUPSY": ("tiers", "Compte libéral : psychomotricien (dossier M18)", "Séances de psychomotricité du SESSAD (6223222)."),
+    "LIBENALI": ("tiers", "Compte libéral : psychologue (dossier M18)", "Groupes de parole du SAVS (6223224)."),
+    "SADURAND": ("tiers", "Compte salarié : Nathalie Durand", "Exemple du document T21 : note de frais (kilomètres en 6251000, stylos en 6062400), SADURAND crédité du total."),
+    "SAGIRARD": ("tiers", "Compte salarié : Thomas Girard (dossier M18)", "Notes de frais d'un éducateur du SESSAD."),
+    "SAROCHE": ("tiers", "Compte salarié : Inès Roche (dossier M18)", "Notes de frais d'une monitrice-éducatrice du SAVS."),
+    "SAHADDAD": ("tiers", "Compte salarié : Rachid Haddad (dossier M18)", "Notes de frais d'un CESF (SAVS et habitat inclusif)."),
+    "SAMARCHETTI": ("tiers", "Compte salarié : Julie Marchetti (dossier M18)", "Notes de frais d'une chargée d'insertion (emploi accompagné)."),
+    "SABERTHIER": ("tiers", "Compte salarié : Nathalie Berthier (dossier M18)", "Notes de frais de la directrice : visées par le président ou la trésorière."),
+    # Structures du dossier M18
+    "SES": ("analytique", "Structure SESSAD (dossier M18)", "Code de la structure SESSAD : sa propre comptabilité (financeur ARS, EPRD/ERRD)."),
+    "SAV": ("analytique", "Structure SAVS (dossier M18)", "Code de la structure SAVS : sa propre comptabilité (financeur Département, BP/CA)."),
+    "ASS": ("analytique", "Structure Association et projets (dossier M18)", "Vie associative, dons, habitat inclusif, projet Pairs et voix."),
+    "EMP": ("analytique", "Structure Emploi accompagné (dossier M18)", "Dispositif d'emploi accompagné (ARS, AGEFIPH, FIPHFP)."),
+    # Journaux du dossier M18
+    "BQSIE": ("journal", "Journal de banque du siège", "Contrepartie automatique 5121000 : vous saisissez seulement la ligne d'en face."),
+    "BQSES": ("journal", "Journal de banque du SESSAD", "Contrepartie automatique 5122000."),
+    "BQSAV": ("journal", "Journal de banque du SAVS", "Contrepartie automatique 5123000."),
+    "BQEMP": ("journal", "Journal de banque de l'emploi accompagné", "Contrepartie automatique 5124000."),
+    "BQASS": ("journal", "Journal de banque de l'association", "Contrepartie automatique 5125000."),
+    "PLSIE": ("journal", "Journal de banque « placement » du siège", "Un journal par placement : versements, retraits, intérêts du compte à terme 5081100."),
+    "CAASS": ("journal", "Journal de caisse de l'association", "Petite caisse des événements, compte 5300000. Se tient comme une banque."),
+    # Outils et sigles des documents T21
+    "EIG": ("sigle", "Suite de logiciels de gestion utilisée par Trisomie 21 France", "Logiciels qui alimentent la comptabilité : EIG RH (paie), EIG IMMOS (immobilisations), EIG Gestion commerciale (factures de vente). Leurs journaux sont automatiques : on ne les saisit pas à la main."),
+    "IMMOS": ("sigle", "EIG IMMOS : le fichier des immobilisations", "Calcule les amortissements et les sorties d'actif, puis les déverse dans le journal des immobilisations (automatique)."),
+    "T21": ("sigle", "Trisomie 21 (France)", "Abréviation utilisée dans les documents internes : « T21 France » = la Fédération Trisomie 21 France."),
+    "CAT": ("sigle", "Compte à terme", "Placement bloqué pour une durée fixée, avec intérêts. Comptes 5081XXX dans le plan T21."),
+    "RAN": ("sigle", "Report à nouveau", "Résultat d'un exercice pas encore affecté (comptes 115xxxx créditeurs, 1159xxx débiteurs dans le plan T21)."),
+    "PSB": ("sigle", "Parts sociales (abréviation du plan T21)", "Dans « PSB CME T21 France (parts sociales) », compte 5040000 : parts sociales détenues au Crédit Mutuel."),
+    "CME": ("sigle", "Crédit Mutuel (abréviation du plan T21)", "Banque coopérative : pour ouvrir un compte, on souscrit des parts sociales."),
+    "BRR": ("sigle", "Besoin de fonds de roulement (abréviation du plan T21)", "Compte 1412000 « Prov destinées à la couverture du BRR » : provision réglementée pour le besoin en fonds de roulement."),
+    "SIA": ("sigle", "Structure « SIA » de la Fédération", "Code interne d'une structure de Trisomie 21 France (compte de liaison 1841100). Signification à demander."),
+    "CFF": ("sigle", "Structure « CFF » de la Fédération", "Code interne d'une structure de Trisomie 21 France (compte de liaison 1841200). Signification à demander."),
+    "DK": ("sigle", "Abréviation d'un lieu dans le plan T21", "« SESSAD DK », « SAVS DK » : vraisemblablement Dunkerque. À faire confirmer."),
+    "GCSMS": ("organisme", "Groupement de coopération sociale ou médico-sociale", "Structure qui permet à plusieurs associations de mettre des moyens en commun (compte 6551000 pour la quote-part de résultat)."),
+    "FNAL": ("social", "Fonds national d'aide au logement", "Contribution patronale calculée par la paie (compte 6332000 « allocation logement » du plan T21)."),
+    "URIOPSS": ("organisme", "Union régionale des organismes privés sanitaires et sociaux", "Fédération régionale des associations du secteur : informations, formations, conseils budgétaires."),
+    "OGIRYS": ("sigle", "Abonnement facturé par la Fédération", "Compte 7060002 « Abonnement annuel OGIRYS » : prestation vendue par la Fédération aux associations (nom d'outil interne)."),
+    "DIAE": ("sigle", "Projet « DIAE » (plan T21)", "Projet financé par des dons (compte 7541400). Signification à demander."),
+})

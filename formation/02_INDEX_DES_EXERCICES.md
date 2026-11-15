@@ -2,7 +2,7 @@
 
 > Généré automatiquement. Cliquez sur l'énoncé, faites l'exercice, **puis seulement** ouvrez le corrigé.
 
-**207 exercices** répartis en 18 modules.
+**219 exercices** répartis en 19 modules.
 
 ## M00 — Organiser et piloter son portefeuille comme un senior
 
@@ -336,3 +336,22 @@
 | E17-09 | La partie financière d'un appel à projets : chiffrer un nouveau dispositif sur 3 ans | Cap Horizons 21 (association fictive) | ★★★ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-09_appel-a-projets-emploi-accompagne.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-09_corrige.md) |
 | E17-10 | Le bilan financier du projet habitat inclusif : compte rendu financier au financeur | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-10_bilan-financier-habitat-inclusif.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-10_corrige.md) |
 | E17-11 | Clôture au 31/12/2026 avec l'expert-comptable et le commissaire aux comptes | Cap Horizons 21 (association fictive) | ★★☆ | [énoncé](modules/M17_entretien_agent_comptable_T21/exercices/E17-11_cloture-2026-expert-comptable-cac.md) | [corrigé](modules/M17_entretien_agent_comptable_T21/corriges/E17-11_corrige.md) |
+
+## M18 — La saisie comptable chez Trisomie 21 France (documents réels)
+
+📘 [Cours](modules/M18_saisie_comptable_T21/cours.md)
+
+| N° | Exercice | Client | Difficulté | Énoncé | Corrigé |
+|---|---|---|---|---|---|
+| E18-01 | Quel journal, quelle structure ? 20 opérations à aiguiller |  | ★☆☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-01_quel-journal-quelle-structure.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-01_corrige.md) |
+| E18-02 | Dix factures fournisseurs à contrôler et à saisir |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-02_factures-fournisseurs-saisie.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-02_corrige.md) |
+| E18-03 | Les factures des libéraux : convention, planning et avoirs |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-03_factures-liberaux-avoirs.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-03_corrige.md) |
+| E18-04 | Quatre notes de frais : contrôler, saisir, rembourser |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-04_notes-de-frais.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-04_corrige.md) |
+| E18-05 | Saisir le relevé bancaire d'octobre du SESSAD et faire le rapprochement |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-05_releve-bancaire-sessad.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-05_corrige.md) |
+| E18-06 | Contrôler un journal des ventes automatique, puis saisir les recettes de Cap Horizons 21 |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-06_ventes-clients-federation-et-produits.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-06_corrige.md) |
+| E18-07 | Les inter-structures d'un mois dans les cinq structures, et le contrôle croisé des liaisons |  | ★★★ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-07_inter-structures-5-structures.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-07_corrige.md) |
+| E18-08 | Petite caisse, virements internes et compte à terme |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-08_caisse-virements-internes-placements.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-08_corrige.md) |
+| E18-09 | Les travaux de fin d'exercice au 31/12/2026, structure par structure |  | ★★★ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-09_travaux-fin-exercice-t21.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-09_corrige.md) |
+| E18-10 | Réviser la balance du SAVS au 30/11/2026 comme une senior |  | ★★★ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-10_revision-balance-analyse-senior.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-10_corrige.md) |
+| E18-11 | Cas de synthèse : tout le mois de novembre 2026 dans les 5 structures |  | ★★★ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-11_cas-synthese-mois-complet-5-structures.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-11_corrige.md) |
+| E18-12 | Lire et critiquer les documents comptables de Trisomie 21 France |  | ★★☆ | [énoncé](modules/M18_saisie_comptable_T21/exercices/E18-12_lire-et-critiquer-les-documents-t21.md) | [corrigé](modules/M18_saisie_comptable_T21/corriges/E18-12_corrige.md) |

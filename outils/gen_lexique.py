@@ -24,9 +24,10 @@ CATS = {
     "organisme": "Organisme / administration",
     "texte": "Texte de référence",
     "sigle": "Sigle courant",
-    "analytique": "Code analytique (association Cap Horizons 21, M16-M17)",
+    "analytique": "Code analytique ou structure (association Cap Horizons 21, M16-M18)",
     "compte": "Compte du plan comptable",
     "terme": "Mot du métier",
+    "tiers": "Compte de tiers (fournisseur, libéral, salarié)",
 }
 
 
@@ -125,7 +126,7 @@ out = ["# Comprendre les codes et sigles",
        "| Code | Ce que ça veut dire | Exemple |",
        "|---|---|---|",
        "| **C** + 2 chiffres | Un **client** du portefeuille du cabinet (C01 à C25) | C09 = Mode & Co, l'e-commerçant |",
-       "| **M** + 2 chiffres | Un **module** (chapitre) de la formation (M00 à M17) | M04 = le module sur la TVA |",
+       "| **M** + 2 chiffres | Un **module** (chapitre) de la formation (M00 à M18) | M04 = le module sur la TVA |",
        "| **E** + module **-** numéro | Un **exercice** : E04-03 = exercice n° 3 du module M04 | E04-03 = TVA sur la marge des véhicules d'occasion |",
        "| **N**, **N-1**, **N+1** | L'exercice comptable en cours, le précédent, le suivant | N = 2026, N-1 = 2025 |",
        "| **M**, **M+1** | Un mois donné, le mois suivant | TVA de janvier (M) déclarée en février (M+1) |",
@@ -148,7 +149,7 @@ for k in sorted(c for c in lex if lex[c]["c"] == "module"):
     out.append(f"| **{k}** | [{lex[k]['t'].split(' — ', 1)[1]}]({os.path.relpath(os.path.join(mdir, 'cours.md'), DOCS)}) |")
 
 order = ["notation", "declaration", "fiscal", "social", "journal", "forme", "organisme", "texte", "sigle",
-         "analytique", "compte", "terme"]
+         "analytique", "compte", "tiers", "terme"]
 for cat in order:
     seen = set()
     items = []
