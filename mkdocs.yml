@@ -1,5 +1,6 @@
 site_name: Formation comptable — Junior à Senior
 site_description: Formation pratique en comptabilité française — 25 clients, cours, exercices et corrigés
+copyright: 'Copyright &copy; 2026 <a href="https://nova-ai.cloud" target="_blank" rel="noopener">nova-ai.cloud</a> — Formation créée par <a href="https://nova-ai.cloud" target="_blank" rel="noopener">nova-ai.cloud</a>'
 docs_dir: formation
 site_dir: site
 use_directory_urls: true
